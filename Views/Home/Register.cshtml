@@ -1,0 +1,18 @@
+﻿@model RegisterModel
+
+<div class="main" id="container">
+        <div class="form-container inspace round sign-in">
+            <form asp-action="Register">
+                <h1>Create an Account</h1>
+               <br/>
+                <input class="inputField smallRound" type="text" asp-for="name" placeholder="Name">
+                <input class="inputField smallRound" type="text" asp-for="lastname" placeholder="Lastname">
+                 <input class="inputField smallRound" type="email" asp-for="email" placeholder="Email">
+                <input class="inputField smallRound" type="password" asp-for="password" placeholder="Password">
+                
+                <button class="submitButton">Sign Up</button>
+                <a asp-action="Login" asp-controller="Home" class="link">Already have an account?</a>
+            </form>
+        </div>
+        
+    </div>

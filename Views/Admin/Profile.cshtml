@@ -1,0 +1,90 @@
+﻿
+
+<!--
+
+
+<form method="post" asp-action="Profile" enctype="multipart/form-data">
+    <div class="container rounded bg-white mt-5 mb-5">
+        <div class="seMain">
+            <div class="col-md-3 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="@ViewBag.File"/><span class="font-weight-bold">@Model.name</span><span class="text-black-50">@Model.email</span><span> </span></div>
+                <input type="file" name="fileName" />
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Profile Settings</h4>
+                    </div>
+                    <div class="rowm mt-2">
+                        <div class="col-md-6"><label class="labels">Ime</label><input asp-for="name" type="text" class="form-control" placeholder="@Model.name" value="@Model.name"></div>
+                        <div class="col-md-6"><label class="labels">Priimek</label><input asp-for="lastname" type="text" class="form-control" value="@Model.lastname" placeholder="@Model.lastname"></div>
+                    </div>
+                    <div class="rowm mt-3">
+                        <div style="margin-top:20px;" class="col-md-12"><label class="labels">Email ID</label><input asp-for="email" type="text" class="form-control" placeholder="a@gmail.com" value="@Model.email"></div>
+                    </div>
+                    <div class="rowm mt-4">
+                        <div style="margin-top:10px;" class="col-md-12"><label class="labels">Pravice</label><input asp-for="rights" type="text" class="form-control" placeholder="@Model.rights" value="@Model.rights" disabled></div>
+                    </div>
+                    <input hidden asp-for="id_admin" value="@Model.id_admin" />
+                    <div class="rowm mt-4">
+                        <div style="margin-top:10px;" class="col-md-12"><label class="labels">Geslo</label><input type="text" class="form-control" placeholder="**********" value="" disabled></div>
+                    </div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="submit">Save Profile</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+-->
+@model adminEntity
+
+<div class="profile-container">
+    <div class="profile-picture">
+      <!-- Placeholder for the profile picture -->
+      <img src="@ViewBag.File" alt="Profile Picture">
+      
+   <!-- prestavi v post ko bos naredil edit   <input type="file" name="fileName"/> -->
+    </div>
+    <div class="user-details">
+      <h1>@Model.name @Model.lastname</h1>
+                <label class="data">Name: @Model.name </label>
+                 <br/>
+                 <label class="data">Lastname: @Model.lastname</label>
+               <br/>
+                 <label class="data">Date of profile creation: @Model.created</label>
+                 <br/>
+                 <label class="data">email: @Model.email</label>
+    </div>
+    <div class="additional-info">
+        <button class="submitButton smallSpace" asp-action="EditUser" >Edit</button>
+        <br/>
+        <br/>
+       <button class="submitButton smallSpace" asp-action="Index" >Back</button>
+    </div>
+  </div>
+
+<!--<div class="mainGridPro">
+    <div class="gridProBackground">
+        <div class="GridProItems Pro1">
+            <div class="vertical">
+                <img class="rounded-circle mt-5 block" width="150px" src="@ViewBag.File"/>
+                <input type="file" name="fileName"/>
+            </div>
+        </div>
+        <div class="GridProItems Pro2">
+            <label class="data">Name: ********</label>
+            <hr class="horizontalR"/>
+            <label class="data">Stante: ********</label>
+            <hr class="horizontalR"/>
+            <label class="data">Name: ********</label>
+            <hr class="horizontalR"/>
+            <label class="data">Name: ********</label>
+        </div>
+        <div class="GridProItems Pro3">
+            yeeee
+        </div>
+        <div class="GridProItems Pro4">
+
+        </div>
+    </div>
+</div>-->

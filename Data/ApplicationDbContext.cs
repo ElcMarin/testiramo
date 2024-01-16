@@ -1,0 +1,21 @@
+﻿using System;
+using maturitetna.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace maturitetna.Data
+{
+	public class ApplicationDbContext : DbContext 
+	{
+		public ApplicationDbContext(DbContextOptions <ApplicationDbContext>options) : base(options)
+		{
+		}
+
+		public DbSet <adminEntity> admin { get; set; }
+
+		public DbSet<hairdresserEntity> hairdresser { get; set; }
+		
+		public DbSet<userEntity> user { get; set; } // predlaga userEntities in js uporablam user namest userEntities
+
+	}
+}
+

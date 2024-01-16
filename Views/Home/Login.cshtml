@@ -1,0 +1,19 @@
+﻿@model LoginModel
+
+ 
+    <div class="main" id="container">
+          
+        <div class="form-container inspace round sign-in">
+              <form asp-action="Login" method="post">
+                <h1>Sign In</h1>
+                    
+                <input class="inputField smallRound" asp-for="email" type="email" placeholder="Email">
+                <input class="inputField smallRound" asp-for="password" type="password" placeholder="Password">
+                <a href="#">Forgot Your Password?</a>
+                <button class="submitButton smallSpace" >Sign In</button> 
+                 <button class="submitButton smallSpace" asp-action="Register" asp-controller="Home" >Register</button>
+              </form>
+           
+            </div>
+
+        </div>
