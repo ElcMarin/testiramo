@@ -92,11 +92,25 @@ public class AdminController : Controller
             _db.user.Add(user);
             await _db.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Users));
         }
 
         // If ModelState is not valid, return to the Create view with validation errors
         return View(user);
+    }
+    
+    public async Task<IActionResult> DeleteUser(int id)
+    {
+        var user = await _db.user.FindAsync(id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        _db.user.Remove(user);
+        await _db.SaveChangesAsync();
+
+        return RedirectToAction(nameof(Users));
     }
     
     public IActionResult Profile()
@@ -131,7 +145,7 @@ public class AdminController : Controller
 
         if (fileName != null)
         {
-            using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.id_admin + ".png", FileMode.Create))
+            using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.id_admin + admin.rights + ".png", FileMode.Create))
             {
                 fileName.CopyTo(stream);
             }
@@ -204,17 +218,16 @@ public async Task<IActionResult> Create(adminEntity admin)
 
     }
 
+    // APPOINTMENS
 
-    
-    /*public IActionResult Logout()
+    public IActionResult Appointments()
     {
-        HttpContext.Session.Remove("email");
-        HttpContext.Session.Remove("password");
-
-            
-        return RedirectToAction("Index", "Home");
-
+        return View();
     }
-    */
+    
+    public IActionResult AddAppointments()
+    {
+        return View();
+    }
 }
 

@@ -62,7 +62,7 @@ body {
 
 .containerAdmin{
   height:auto;
-  margin-left:200px;
+  margin-left:100px;
   margin-top:100px;
 }
 
@@ -158,12 +158,12 @@ body {
 .user-details {
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .additional-info {
   grid-column: span 2; /* Make this item span two columns */
 }
-
 
 .submitButton{
   text-align:center;
@@ -179,4 +179,8 @@ body {
 
 .smallRound{
   border-radius:5px;
+}
+
+.mid{
+  margin-left:300px !important;
 }

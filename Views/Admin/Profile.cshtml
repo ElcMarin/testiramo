@@ -37,31 +37,36 @@
 </form>
 -->
 @model adminEntity
-
-<div class="profile-container">
-    <div class="profile-picture">
-      <!-- Placeholder for the profile picture -->
-      <img src="@ViewBag.File" alt="Profile Picture">
+<form method="post" asp-action="Profile">
+    <div class="profile-container">
+        <div class="profile-picture">
+            <!-- Placeholder for the profile picture -->
+            <img src="@ViewBag.File" alt="Profile Picture">
       
-   <!-- prestavi v post ko bos naredil edit   <input type="file" name="fileName"/> -->
+            <!-- prestavi v post ko bos naredil edit   <input type="file" name="fileName"/> -->
+        </div>
+        <div class="user-details">
+            <h1>@Model.name @Model.lastname</h1>
+            
+            <label class="data"> <input value="@Model.name" /> </label>
+           
+            <br/>
+            <label class="data"><input value="@Model.lastname" /> </label>
+            <br/>
+            
+            <label class="data"><input value="@Model.email" /> </label>
+            <br/>
+            <label class="data">Date of profile creation: @Model.created</label>
+                        <br/>
+        </div>
+        <div class="additional-info">
+            <button type="submit" class="submitButton smallSpace" asp-action="Edit" >Submit</button>
+            <br/>
+            <br/>
+            <button class="submitButton smallSpace" asp-action="Index" >Back</button>
+        </div>
     </div>
-    <div class="user-details">
-      <h1>@Model.name @Model.lastname</h1>
-                <label class="data">Name: @Model.name </label>
-                 <br/>
-                 <label class="data">Lastname: @Model.lastname</label>
-               <br/>
-                 <label class="data">Date of profile creation: @Model.created</label>
-                 <br/>
-                 <label class="data">email: @Model.email</label>
-    </div>
-    <div class="additional-info">
-        <button class="submitButton smallSpace" asp-action="EditUser" >Edit</button>
-        <br/>
-        <br/>
-       <button class="submitButton smallSpace" asp-action="Index" >Back</button>
-    </div>
-  </div>
+</form>
 
 <!--<div class="mainGridPro">
     <div class="gridProBackground">
