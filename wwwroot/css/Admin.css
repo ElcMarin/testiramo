@@ -184,3 +184,82 @@ body {
 .mid{
   margin-left:300px !important;
 }
+
+
+/* appointments */
+
+.appointments-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.day-selector {
+  margin-bottom: 20px;
+}
+
+.appointments-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px;
+}
+
+.appointment {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.add-button {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:75px;
+  text-decoration:none;
+}
+
+/*    ADD APPOINTMENT   */
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-add {
+  text-align: center;
+  color: #333;
+}
+
+.form-add {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-form {
+  margin-top: 10px;
+  color: #555;
+}
+
+.input-form {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
