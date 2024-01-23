@@ -217,7 +217,7 @@ body {
 
 .add-button {
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 10px;
   padding: 10px;
   background-color: #3498db;
@@ -263,3 +263,11 @@ body {
   border-radius: 5px;
 }
 
+.remove-button{
+  float:right;
+  width:100px;
+  background-color:red;
+  color:white;
+  margin-left:10px;
+  border-color:white;
+}

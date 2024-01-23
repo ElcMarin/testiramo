@@ -19,10 +19,83 @@ public class AdminController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
+    {
+        var hairdresser = await _db.hairdresser.ToListAsync();
+        return View(hairdresser);
+    }
+    
+    public IActionResult CreateHairdresser()
     {
         return View();
     }
+    [HttpPost]
+    public async Task<IActionResult> CreateHairdresser(hairdresserEntity hairdresser)
+    {
+        if (ModelState.IsValid)
+        {
+            // Hash the password
+            hairdresser.password = PasswordHelper.HashPassword(hairdresser.password);
+
+            // Add the admin with hashed password to the database
+            _db.hairdresser.Add(hairdresser);
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        // If ModelState is not valid, return to the Create view with validation errors
+        return View(hairdresser);
+    }
+    
+    
+    // UREDI ADMINA
+    public async Task<IActionResult> EditHairdresser(int id)
+    {
+        var hairdresser = await _db.hairdresser.FindAsync(id);
+        if (hairdresser == null)
+        {
+            return NotFound();
+        }
+        return View(hairdresser);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> EditHairdresser(int id, [Bind("id_hairdresser,name,lastname,email,password")] hairdresserEntity hairdresser)
+    {
+        if (id != hairdresser.id_admin)
+        {
+            return NotFound();
+        }
+
+        if (ModelState.IsValid)
+        {
+            try
+            {
+                _db.Update(hairdresser);
+                await _db.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                // Handle exception
+            }
+
+            return RedirectToAction(nameof(Index)); // Redirect to admin list or another page
+        }
+        return View(admin);
+    }
+    
+    //
+    //
+    
+    //
+    //
+    //
+    
+    
+    
+    
     
     public async Task<IActionResult> Admins()
     {
@@ -61,11 +134,6 @@ public class AdminController : Controller
     }
 
 
-    public IActionResult EditUser()
-    {
-        return View();
-    }
-    [HttpPost]
     public async Task<IActionResult> EditUser(int id)
     {
         var user = await _db.user.FindAsync(id);
@@ -74,6 +142,33 @@ public class AdminController : Controller
             return NotFound();
         }
         return View(user);
+    }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> EditUser(int id, [Bind("id_user,name,lastname,email,password")] userEntity user)
+    {
+        if (id != user.id_user)
+        {
+            return NotFound();
+        }
+
+        if (ModelState.IsValid)
+        {
+            try
+            {
+                _db.Update(user);
+                await _db.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                // Handle exception
+            }
+
+            return RedirectToAction(nameof(Index)); // Redirect to admin list or another page
+        }
+
+        return View(user);
+
     }
     
     public IActionResult CreateUser()
@@ -130,7 +225,42 @@ public class AdminController : Controller
 
             
     }
-
+    // [HttpPost]
+    // public IActionResult Profile(adminEntity admin, IFormFile fileName)
+    // {
+    //     admin.id_admin = int.Parse(HttpContext.Session.GetString("id"));
+    //     Console.WriteLine(admin.id_admin + " " + admin.name + " " + admin.lastname + " "  + admin.rights);
+    //
+    //     var user = _db.admin.Find(admin.id_admin);
+    //     user.name = admin.name;
+    //     user.lastname = admin.lastname;
+    //     user.email = admin.email;
+    //     if (admin.password != null) user.password = PasswordHelper.HashPassword(admin.password);
+    //     _db.SaveChanges();
+    //
+    //     if (fileName != null && fileName.Length > 0)
+    //     {
+    //         // Ensure the wwwroot/Storage/ProfilePics directory exists
+    //         var directoryPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Storage/ProfilePics");
+    //         if (!Directory.Exists(directoryPath))
+    //         {
+    //             Directory.CreateDirectory(directoryPath);
+    //         }
+    //
+    //         // Save the uploaded file
+    //         var filePath = Path.Combine(directoryPath, $"{admin.rights}{admin.id_admin}.png");
+    //         using (var stream = new FileStream(filePath, FileMode.Create))
+    //         {
+    //             fileName.CopyTo(stream);
+    //         }
+    //     }
+    //
+    //     // Update the ViewBag with the new profile picture path
+    //     ViewBag.File = FileHelper.GetProfilePicture(admin.id_admin, admin.rights);
+    //
+    //     return View(admin);
+    // }
+    
     [HttpPost]
     public IActionResult Profile(adminEntity admin, IFormFile fileName)
     {
@@ -142,7 +272,7 @@ public class AdminController : Controller
         user.email = admin.email;
         if(admin.password != null) user.password = PasswordHelper.HashPassword(admin.password);
         _db.SaveChanges();
-
+    
         if (fileName != null)
         {
             using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.id_admin + admin.rights + ".png", FileMode.Create))
@@ -150,6 +280,7 @@ public class AdminController : Controller
                 fileName.CopyTo(stream);
             }
         }
+        ViewBag.File = FileHelper.GetProfilePicture(admin.id_admin, admin.rights);
         return View(admin);
     }
 
@@ -213,9 +344,7 @@ public async Task<IActionResult> Create(adminEntity admin)
 
             return RedirectToAction(nameof(Index)); // Redirect to admin list or another page
         }
-
         return View(admin);
-
     }
 
     // APPOINTMENS

@@ -13,12 +13,24 @@
       "PackagePath": "staticwebassets/Img/hair-dye.png"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/.DS_Store",
+      "PackagePath": "staticwebassets/Storage/.DS_Store"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/1.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/1.png"
     },
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/default.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/default.png"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/profileSecond.jpeg",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/profileSecond.jpeg"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/profilethree.jpeg",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/profilethree.jpeg"
     },
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/css/Admin.css",

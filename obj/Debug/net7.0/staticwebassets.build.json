@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A0XVj/S1eeggCQ9KI8YZhKOS9VAuU3UcFHH9f1yuA4g=",
+  "Hash": "xVVa8zWsLUTST2MkNcm2dsQaJETsYONn1f9uitxTdGM=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -1156,6 +1156,23 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/.DS_Store",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Storage/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Storage/.DS_Store"
+    },
+    {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/1.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
@@ -1188,6 +1205,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/default.png"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/profileSecond.jpeg",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Storage/ProfilePics/profileSecond.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Storage/ProfilePics/profileSecond.jpeg"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/profilethree.jpeg",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Storage/ProfilePics/profilethree.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Storage/ProfilePics/profilethree.jpeg"
     }
   ]
 }

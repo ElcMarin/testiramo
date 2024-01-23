@@ -10,7 +10,7 @@
         <br/>
         <div class="row">
             <div class="col-4">
-                <label asp-for="name">@Model.name</label>
+                <label asp-for="name">Name</label>
                 <input required="" asp-for="name" class="form-control"/>
                 <span asp-validation-for="name"></span>
             </div>
@@ -18,7 +18,7 @@
         <br/>
         <div class="row">
             <div class="col-4">
-                <label asp-for="lastname">@Model.lastname</label>
+                <label asp-for="lastname">Lastname</label>
                 <input required="" asp-for="lastname" class="form-control"/>
                 <span asp-validation-for="lastname"></span>
             </div>
@@ -26,7 +26,7 @@
         <br/>
         <div class="row">
             <div class="col-4">
-                <label asp-for="email">@Model.email</label>
+                <label asp-for="email">Email</label>
                 <input required="" asp-for="email" class="form-control"/>
                 <span asp-validation-for="email"></span>
             </div>
@@ -34,7 +34,7 @@
         <br/>
         <div class="row">
             <div class="col-4">
-                            <label>@Model.password</label>
+                            <label>Password</label>
                             <input disabled asp-for="password" class="form-control"/>
                         </div>
             
@@ -47,7 +47,7 @@
         </div>
         <br/>
         <div class="w-12 btn-group" role="group">
-            <input type="submit" class="btn btn-primary mx-1"/>
+            <a type="submit" asp-action="Users" asp-controller="Admin" class="btn btn-primary mx-1">Submit</a>
             <a asp-action="Users" class="btn btn-primary">Back to List</a>
             
         </div>
