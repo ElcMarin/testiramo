@@ -64,7 +64,7 @@ public class AdminController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> EditHairdresser(int id, [Bind("id_hairdresser,name,lastname,email,password")] hairdresserEntity hairdresser)
     {
-        if (id != hairdresser.id_admin)
+        if (id != hairdresser.id_hairdresser)
         {
             return NotFound();
         }
@@ -83,7 +83,7 @@ public class AdminController : Controller
 
             return RedirectToAction(nameof(Index)); // Redirect to admin list or another page
         }
-        return View(admin);
+        return View(hairdresser);
     }
     
     //
@@ -119,6 +119,21 @@ public class AdminController : Controller
 
         return RedirectToAction(nameof(Index));
     }
+    
+    public async Task<IActionResult> DeleteUser(int id)
+    {
+        var user = await _db.user.FindAsync(id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        _db.user.Remove(user);
+        await _db.SaveChangesAsync();
+
+        return RedirectToAction(nameof(Index));
+    }
+    
     
         public IActionResult Logout()
         {
@@ -194,15 +209,15 @@ public class AdminController : Controller
         return View(user);
     }
     
-    public async Task<IActionResult> DeleteUser(int id)
+    public async Task<IActionResult> DeleteHairdresser(int id)
     {
-        var user = await _db.user.FindAsync(id);
-        if (user == null)
+        var hairdresser = await _db.hairdresser.FindAsync(id);
+        if (hairdresser == null)
         {
             return NotFound();
         }
 
-        _db.user.Remove(user);
+        _db.user.Remove(hairdresser);
         await _db.SaveChangesAsync();
 
         return RedirectToAction(nameof(Users));
