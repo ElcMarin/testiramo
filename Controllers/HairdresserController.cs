@@ -34,7 +34,7 @@ public class HairdresserController : Controller
     {
         return View();
     }
-    
+   
 }
     
 

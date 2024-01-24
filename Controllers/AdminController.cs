@@ -217,7 +217,7 @@ public class AdminController : Controller
             return NotFound();
         }
 
-        _db.user.Remove(hairdresser);
+        _db.hairdresser.Remove(hairdresser);
         await _db.SaveChangesAsync();
 
         return RedirectToAction(nameof(Users));
@@ -290,7 +290,7 @@ public class AdminController : Controller
     
         if (fileName != null)
         {
-            using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.id_admin + admin.rights + ".png", FileMode.Create))
+            using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.rights.ToString() + admin.id_admin.ToString() + ".png", FileMode.Create))
             {
                 fileName.CopyTo(stream);
             }
@@ -371,6 +371,17 @@ public async Task<IActionResult> Create(adminEntity admin)
     
     public IActionResult AddAppointments()
     {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> AddAppointments(appointmentEntity appointment)
+    {
+        if (ModelState.IsValid)
+        {
+            _db.appointment.Add(appointment);
+            await _db.SaveChangesAsync();
+        }
         return View();
     }
 }
