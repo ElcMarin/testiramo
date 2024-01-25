@@ -22,7 +22,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="ProfilePictures\" />
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="Views\Admin\Create.cshtml" />

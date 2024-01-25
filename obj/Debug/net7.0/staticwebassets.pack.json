@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/face-shape.webp",
+      "PackagePath": "staticwebassets/Img/face-shape.webp"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/hair-dye.png",
       "PackagePath": "staticwebassets/Img/hair-dye.png"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/lock.png",
+      "PackagePath": "staticwebassets/Img/lock.png"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/low-maintenance-haircuts-for-men.jpg",
+      "PackagePath": "staticwebassets/Img/low-maintenance-haircuts-for-men.jpg"
     },
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/.DS_Store",
@@ -21,8 +33,20 @@
       "PackagePath": "staticwebassets/Storage/ProfilePics/1.png"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/1_.png",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/1_.png"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/_1.png",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/_1.png"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/default.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/default.png"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/haircutTypes.webp",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/haircutTypes.webp"
     },
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/profileSecond.jpeg",

@@ -240,41 +240,6 @@ public class AdminController : Controller
 
             
     }
-    // [HttpPost]
-    // public IActionResult Profile(adminEntity admin, IFormFile fileName)
-    // {
-    //     admin.id_admin = int.Parse(HttpContext.Session.GetString("id"));
-    //     Console.WriteLine(admin.id_admin + " " + admin.name + " " + admin.lastname + " "  + admin.rights);
-    //
-    //     var user = _db.admin.Find(admin.id_admin);
-    //     user.name = admin.name;
-    //     user.lastname = admin.lastname;
-    //     user.email = admin.email;
-    //     if (admin.password != null) user.password = PasswordHelper.HashPassword(admin.password);
-    //     _db.SaveChanges();
-    //
-    //     if (fileName != null && fileName.Length > 0)
-    //     {
-    //         // Ensure the wwwroot/Storage/ProfilePics directory exists
-    //         var directoryPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Storage/ProfilePics");
-    //         if (!Directory.Exists(directoryPath))
-    //         {
-    //             Directory.CreateDirectory(directoryPath);
-    //         }
-    //
-    //         // Save the uploaded file
-    //         var filePath = Path.Combine(directoryPath, $"{admin.rights}{admin.id_admin}.png");
-    //         using (var stream = new FileStream(filePath, FileMode.Create))
-    //         {
-    //             fileName.CopyTo(stream);
-    //         }
-    //     }
-    //
-    //     // Update the ViewBag with the new profile picture path
-    //     ViewBag.File = FileHelper.GetProfilePicture(admin.id_admin, admin.rights);
-    //
-    //     return View(admin);
-    // }
     
     [HttpPost]
     public IActionResult Profile(adminEntity admin, IFormFile fileName)
@@ -290,10 +255,25 @@ public class AdminController : Controller
     
         if (fileName != null)
         {
-            using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.rights.ToString() + admin.id_admin.ToString() + ".png", FileMode.Create))
+            // Sanitize the file name to remove invalid characters
+            string sanitizedFileName = string.Join("_", admin.id_admin.ToString(), admin.rights.ToString()) + ".png";
+            sanitizedFileName = new string(sanitizedFileName.Where(c => !Path.GetInvalidFileNameChars().Contains(c)).ToArray());
+
+// Combine the sanitized file name with the path
+            string filePath = Path.Combine("wwwroot/Storage/ProfilePics", sanitizedFileName);
+
+// Use the sanitized file path in FileStream
+            using (var stream = new FileStream(filePath, FileMode.Create))
             {
                 fileName.CopyTo(stream);
             }
+
+            
+            
+            // using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.rights.ToString() + admin.id_admin.ToString() + ".png", FileMode.Create))
+            // {
+            //     fileName.CopyTo(stream);
+            // }
         }
         ViewBag.File = FileHelper.GetProfilePicture(admin.id_admin, admin.rights);
         return View(admin);

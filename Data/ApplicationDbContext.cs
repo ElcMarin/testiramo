@@ -17,6 +17,8 @@ namespace maturitetna.Data
 		public DbSet<userEntity> user { get; set; } // predlaga userEntities in js uporablam user namest userEntities
 
 		public DbSet<appointmentEntity> appointment { get; set; }
+		
+		public DbSet<haircutEntity> haircut { get; set; }
 	}
 }
 

@@ -271,3 +271,14 @@ body {
   margin-left:10px;
   border-color:white;
 }
+
+
+.item{
+  padding: 15px;
+}
+
+.itemOne{
+  grid-column:1/4;
+  grid-row:1/3;
+  width:100%;
+}
