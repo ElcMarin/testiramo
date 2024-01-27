@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dRnjOeLgkD30EuiOgtLqHiNzXYR+QDZDmEBBwjFNHNA=",
+  "Hash": "AUnI9aXSH53x6GoV6ETIGrI3pZibJfg4lbzja/YYOhw=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Img/low-maintenance-haircuts-for-men.jpg"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/ProstiDan.webp",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/ProstiDan.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/ProstiDan.webp"
     },
     {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/js/site.js",

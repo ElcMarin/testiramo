@@ -78,9 +78,15 @@ public class HairdresserController : Controller
         return View( hairdresser);
     }
 
-    public IActionResult Logout()
+    public IActionResult DaysOff()
     {
         return View();
+    }
+    
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Clear(); // Clear all session data
+        return RedirectToAction("Index", "Home");
     }
 }
     

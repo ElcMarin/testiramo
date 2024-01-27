@@ -25,14 +25,69 @@ public class UserController : Controller
     }
 
 
-    public IActionResult Profile()
+      public IActionResult Profile()
     {
-        return View();
+        if (HttpContext.Session.GetString("id") != null)
+        {
+            int i = int.Parse(HttpContext.Session.GetString("id"));
+            var user = _db.user.Find(i);
+           
+
+            ViewBag.File = FileHelper.GetProfilePicture(i, user.rights);
+
+            return View(user);
+
+        }
+        else return RedirectToAction("Index", "Home");
+
+            
     }
+    
+    [HttpPost]
+    public IActionResult Profile(userEntity user, IFormFile fileName)
+    {
+        user.id_user = int.Parse(HttpContext.Session.GetString("id"));
+        Console.WriteLine(user.id_user + " " + user.name + " " + user.lastname + " "  + user.rights);
+        var variable = _db.user.Find(user.id_user);
+        variable.name = user.name;
+        variable.lastname = user.lastname;
+        variable.email = user.email;
+        if(user.password != null) variable.password = PasswordHelper.HashPassword(user.password);
+        _db.SaveChanges();
+    
+        if (fileName != null)
+        {
+            // Sanitize the file name to remove invalid characters
+            string sanitizedFileName = string.Join("_", user.id_user.ToString(), user.rights.ToString()) + ".png";
+            sanitizedFileName = new string(sanitizedFileName.Where(c => !Path.GetInvalidFileNameChars().Contains(c)).ToArray());
+
+// Combine the sanitized file name with the path
+            string filePath = Path.Combine("wwwroot/Storage/ProfilePics", sanitizedFileName);
+
+// Use the sanitized file path in FileStream
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                fileName.CopyTo(stream);
+            }
+
+            
+            
+            // using (var stream = new FileStream("wwwroot/Storage/ProfilePics/" + admin.rights.ToString() + admin.id_admin.ToString() + ".png", FileMode.Create))
+            // {
+            //     fileName.CopyTo(stream);
+            // }
+        }
+        ViewBag.File = FileHelper.GetProfilePicture(user.id_user, user.rights);
+        return View(user);
+    }
+
+    
+
 
     public IActionResult Logout()
     {
-        return View();
+        HttpContext.Session.Clear(); // Clear all session data
+        return RedirectToAction("Index", "Home");
     }
     
 }

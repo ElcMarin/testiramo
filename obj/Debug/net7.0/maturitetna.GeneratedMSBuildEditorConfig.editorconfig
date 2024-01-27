@@ -94,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/eliostante/Projects/maturitetna/Views/Hairdresser/DaysOff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFpcmRyZXNzZXIvRGF5c09mZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/eliostante/Projects/maturitetna/Views/Hairdresser/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFpcmRyZXNzZXIvTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
