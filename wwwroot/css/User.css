@@ -72,8 +72,8 @@ body {
 
 .profile-container {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Two columns, first for profile picture, second for user details */
-  gap: 20px; /* Gap between grid items */
+  grid-template-columns: 1fr 2fr; 
+  gap: 20px; 
   max-width: 800px;
   margin: 50px auto;
   background-color: #fff;
@@ -83,24 +83,24 @@ body {
 }
 
 .profile-picture img {
-  width: 100%; /* Ensure the image fills its container */
-  border-radius: 50%; /* Create a circular profile picture */
+  width: 100%; 
+  border-radius: 50%; 
 }
 
 .special-title {
   margin-top:50px;
   font-size: 48px;
-  color: #af9370; /* Complementary color for light yellow */
+  color: #af9370; 
   text-align: center;
   animation: moveTitle 3s ease-in-out infinite alternate;
 }
 
 @keyframes moveTitle {
   0% {
-    transform: translateX(-15px); /* Move title 5 pixels to the left */
+    transform: translateX(-15px);
   }
   100% {
-    transform: translateX(15px); /* Move title 5 pixels to the right */
+    transform: translateX(15px); 
   }
 }
 
