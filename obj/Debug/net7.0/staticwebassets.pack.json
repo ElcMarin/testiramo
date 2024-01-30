@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/Img/hair-dye.png"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/homePage.png",
+      "PackagePath": "staticwebassets/Img/homePage.png"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/lock.png",
       "PackagePath": "staticwebassets/Img/lock.png"
     },

@@ -408,7 +408,7 @@ height: fit-content;
   }
 }
 .main-content {
-  max-width: 800px;
+  max-width: 100%;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
@@ -438,17 +438,19 @@ height: fit-content;
 }
 
 .services {
+  margin:20px 60px 20px 60px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  
 }
 
 .service {
   flex: 0 0 30%;
   text-align: center;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #a2a2a2;
   border-radius: 8px;
+  
 }
 
 footer {
@@ -475,6 +477,7 @@ footer {
 
 .italic{
   font-style:italic;
+  font-size: 25px;
 }
 
 .absoluteRight{
@@ -484,4 +487,32 @@ footer {
   right:20px;
   color:white;
   font-size:30px;
+}
+
+.image-text {
+  position: relative;
+}
+
+.image-text img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.overlay-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  
+}
+
+.bigText{
+  font-size:60px !important;
+   }
+
+.main-content2{
+  
 }

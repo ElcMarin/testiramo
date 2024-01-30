@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AUnI9aXSH53x6GoV6ETIGrI3pZibJfg4lbzja/YYOhw=",
+  "Hash": "DHGpq7alya5vhaAlpKmCyJ7RpbpH8Z3cSj8gOO19vWo=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Img/hair-dye.png"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/homePage.png",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/homePage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/homePage.png"
     },
     {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/lock.png",
