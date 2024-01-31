@@ -89,6 +89,11 @@ public class UserController : Controller
         HttpContext.Session.Clear(); // Clear all session data
         return RedirectToAction("Index", "Home");
     }
+
+    public IActionResult BookAppointment()
+    {
+        return View();
+    }
     
 }
     
