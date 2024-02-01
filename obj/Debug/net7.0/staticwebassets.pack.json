@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Background.jpeg",
+      "PackagePath": "staticwebassets/Img/Background.jpeg"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/BroFlow.webp",
       "PackagePath": "staticwebassets/Img/BroFlow.webp"
     },

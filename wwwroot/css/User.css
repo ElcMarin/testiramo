@@ -217,3 +217,7 @@ body {
 .noBackground{
   background-color:transparent !important;
 }
+
+.inlineE{
+  display:inline-flex;
+}

@@ -19,7 +19,8 @@ html {
 
 body {
   margin-bottom: 60px;
-  background: linear-gradient(to bottom, #F7F7F2, #E4E6C3);
+  /*background: linear-gradient(to bottom, #F7F7F2, #E4E6C3);*/
+  background-image: url("https://wallpapers.com/images/hd/hair-salon-background-kpbtp4e3xfukqeyj.jpg");
 }
 
 .icon{
@@ -69,6 +70,7 @@ border:none;
   justify-content:center;
   align-items:center;
   display:flex;
+ background-image: url(Img/Background.jpeg) !important;
 }
 
 .form-boxForm{
@@ -167,14 +169,16 @@ CSS FOR LOGIN AND REGISTTER
   height:100%;
   justify-content: center;
   align-items:center;
+  background-image: url('Img/Background.jpeg') !important;
 }
 
 .form-container{
   margin-top:10%;
   height:auto;
   width:700px;
-  background-color:white;
-  box-shadow: 10px 10px 5px 0px lightgray;
+  background-color: #f6f3f3;
+  border:1px solid #a9a0a0;
+  box-shadow: 2px 2px 2px 2px #eee9e9;
   display:block;
 }
 
@@ -409,8 +413,8 @@ height: fit-content;
 }
 .main-content {
   max-width: 100%;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 20px 20px 20px 20px;
+ 
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -441,16 +445,16 @@ height: fit-content;
   margin:20px 60px 20px 60px;
   display: flex;
   justify-content: space-between;
-  
+ 
 }
 
 .service {
   flex: 0 0 30%;
   text-align: center;
   padding: 20px;
-  border: 1px solid #a2a2a2;
   border-radius: 8px;
-  
+  background-color: #e3d5d5;
+  border:1px solid #a9a0a0;
 }
 
 footer {
@@ -515,4 +519,16 @@ footer {
 
 .main-content2{
   
+}
+
+.horR{
+  margin:5px auto;
+}
+
+.logButtons{
+  border-radius:50%;
+  border:1px solid #d5d5d5;
+  padding:5px;
+  width:50px;
+  margin-bottom:10px;
 }

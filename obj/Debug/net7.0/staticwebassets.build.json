@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XwDTkPuvE4ppIaK4O03jAvQYhtYuGkofCGVegRLr1D0=",
+  "Hash": "pEYJ2EZB3ZSefvlGXVMTKtEF7C3NxwbCITQW23RMYko=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Background.jpeg",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/Background.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/Background.jpeg"
     },
     {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/BroFlow.webp",
