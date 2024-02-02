@@ -532,3 +532,18 @@ footer {
   width:50px;
   margin-bottom:10px;
 }
+
+.backgroundContainerImg {
+  position: relative;
+}
+
+.backgroundImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("Img/backgroundTwo.webp");
+  background-repeat: repeat; /* Set the background image to repeat */
+  z-index: -1;
+}

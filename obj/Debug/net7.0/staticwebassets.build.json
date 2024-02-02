@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pEYJ2EZB3ZSefvlGXVMTKtEF7C3NxwbCITQW23RMYko=",
+  "Hash": "cgy7dcVWzSWvWjKvrGJo7H6z23Y+9Z+JEaBlV11SE6o=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -168,6 +168,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Img/Background.jpeg"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/background3.jpeg",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/background3.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/background3.jpeg"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/backgroundTwo.webp",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/backgroundTwo.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/backgroundTwo.webp"
     },
     {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/BroFlow.webp",
@@ -406,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Img/low-maintenance-haircuts-for-men.jpg"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Matevz_Haircutter.webp",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/Matevz_Haircutter.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/Matevz_Haircutter.webp"
     },
     {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/MessyHair.webp",

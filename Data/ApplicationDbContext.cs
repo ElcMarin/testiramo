@@ -19,6 +19,10 @@ namespace maturitetna.Data
 		public DbSet<appointmentEntity> appointment { get; set; }
 		
 		public DbSet<haircutEntity> haircut { get; set; }
+		
+		public DbSet<haircutEntity> HairdresserHaircut { get; set; }
+		
+		public DbSet<haircutEntity> appointment_type { get; set; }
 	}
 }
 

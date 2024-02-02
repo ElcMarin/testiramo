@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets/Img/HighAndTight.webp"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Matevz_Haircutter.webp",
+      "PackagePath": "staticwebassets/Img/Matevz_Haircutter.webp"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/MessyHair.webp",
       "PackagePath": "staticwebassets/Img/MessyHair.webp"
     },
@@ -79,6 +83,14 @@
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/TexturedFringe.webp",
       "PackagePath": "staticwebassets/Img/TexturedFringe.webp"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/background3.jpeg",
+      "PackagePath": "staticwebassets/Img/background3.jpeg"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/backgroundTwo.webp",
+      "PackagePath": "staticwebassets/Img/backgroundTwo.webp"
     },
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/face-shape.webp",

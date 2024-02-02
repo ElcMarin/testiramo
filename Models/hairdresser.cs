@@ -13,6 +13,8 @@ namespace maturitetna.Models
 		public string password { get; set; }
 		public DateTime created { get; set; } 
 		public char rights { get; set; }
+		
+		public char gender { get; set; }
 	}
 	
 }
