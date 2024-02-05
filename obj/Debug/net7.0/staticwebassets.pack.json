@@ -45,6 +45,26 @@
       "PackagePath": "staticwebassets/Img/FrenchCrop.jpeg"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser2.jpeg",
+      "PackagePath": "staticwebassets/Img/Hairdresser2.jpeg"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser3.webp",
+      "PackagePath": "staticwebassets/Img/Hairdresser3.webp"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser4.jpeg",
+      "PackagePath": "staticwebassets/Img/Hairdresser4.jpeg"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser5.jpeg",
+      "PackagePath": "staticwebassets/Img/Hairdresser5.jpeg"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser6.webp",
+      "PackagePath": "staticwebassets/Img/Hairdresser6.webp"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/HighAndTight.webp",
       "PackagePath": "staticwebassets/Img/HighAndTight.webp"
     },

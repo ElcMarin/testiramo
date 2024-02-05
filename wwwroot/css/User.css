@@ -221,3 +221,17 @@ body {
 .inlineE{
   display:inline-flex;
 }
+
+.book-hairdresser{
+  margin:10px auto;
+  padding:8px;
+  background-color: #4e4ece;
+  color:white;
+  border-radius:15px;
+  border:1px solid #c0c0c0;
+  text-decoration:none;
+}
+.book-hairdresser:hover{
+  background-color: #4444ea;
+  color:white !important;
+}

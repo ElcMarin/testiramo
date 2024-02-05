@@ -21,6 +21,8 @@ body {
   margin-bottom: 60px;
   /*background: linear-gradient(to bottom, #F7F7F2, #E4E6C3);*/
   background-image: url("https://wallpapers.com/images/hd/hair-salon-background-kpbtp4e3xfukqeyj.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .icon{
@@ -88,7 +90,7 @@ border:none;
 .box-buttonLogin{
   width:360px;
   margin:30px auto;
-  box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.3);
   border-radius:20px;
   position:relative;
 }
