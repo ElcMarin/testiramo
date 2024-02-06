@@ -14,7 +14,7 @@ namespace maturitetna.Models
 		public DateTime created { get; set; } 
 		public char rights { get; set; }
 		
-		public char gender { get; set; }
+		public char? gender { get; set; }
 	}
 	
 }
