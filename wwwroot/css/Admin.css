@@ -338,6 +338,11 @@ body {
   width:200px;
 }
 
-.image100{
-  width:300px;
+.image300{
+  width:300px !important;
+}
+
+.selectStyles{
+  width:400px;
+  margin:200px auto;
 }

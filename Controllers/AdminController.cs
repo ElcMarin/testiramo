@@ -369,5 +369,16 @@ public async Task<IActionResult> Create(adminEntity admin)
     {
         return View();
     }
+    
+    [HttpPost]
+    public async Task<IActionResult> Styles(haircutEntity haircut)
+    {
+       if(ModelState.IsValid)
+       {
+           _db.haircut.Add(haircut);
+           await _db.SaveChangesAsync();
+       }
+       return View();
+    }
 }
 
