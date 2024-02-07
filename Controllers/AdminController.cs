@@ -364,5 +364,10 @@ public async Task<IActionResult> Create(adminEntity admin)
         }
         return View();
     }
+
+    public IActionResult Styles()
+    {
+        return View();
+    }
 }
 

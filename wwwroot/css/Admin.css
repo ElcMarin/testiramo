@@ -61,21 +61,21 @@ body {
 }
 
 .containerAdmin{
-  height:auto;
-  margin:100px auto;
-  /*display:grid;*/
-  /*grid-template-columns:1fr 1fr;*/
-  /*grid-template-rows: 1fr;*/
+  
+  margin:100px 100px 0 100px;
+}
+.containerAdminHair{
+
+  margin:100px 200px 0 200px;
 }
 
-/*.leftSide{*/
-/*  grid-row:1/1;*/
-/*  grid-column:1/2;*/
-/*}*/
-/*.rightSide{*/
-/*  grid-row:1/1;*/
-/*  grid-column:2/3;*/
-/*}*/
+.twoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  grid-gap: 20px; /* Gap between columns */
+}
+
+
 
 .adminAdd{
   float:right;
@@ -295,10 +295,49 @@ body {
 }
 
 .backgroundColor{
-  background-color:#d5d5d5;
+  background-color:#e3d5d5;
 }
 
 .EditHairdresserRight{
   float:right;
 }
 
+.rightSide {
+  grid-column: 2 / 3;
+}
+
+/*.size{*/
+/*  height:1000px !important;*/
+/*}*/
+
+.spaceIn{
+  padding:15px;
+}
+
+.rounded{
+  border-radius:20px;
+}
+
+.bordered{
+  border:1px solid grey;
+}
+
+.posCenter{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.twoButtons{
+  margin-inline: 50px;
+  width:150px !important;
+}
+
+.zweiHundert{
+  width:200px;
+}
+
+.image100{
+  width:300px;
+}

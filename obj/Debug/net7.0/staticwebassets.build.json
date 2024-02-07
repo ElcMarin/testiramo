@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KoZ3GNlt/b7pSSNE0R202W2InqBbnajjjf6WosikYnM=",
+  "Hash": "+hXyWbilTYZ3Iav9P+gzopYWXKxjozm81v9DAOOUQ/8=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -661,6 +661,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Img/SpikyHair.webp"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/styles.webp",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/styles.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/styles.webp"
     },
     {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/TexturedFringe.webp",

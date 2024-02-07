@@ -133,6 +133,10 @@
       "PackagePath": "staticwebassets/Img/low-maintenance-haircuts-for-men.jpg"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/styles.webp",
+      "PackagePath": "staticwebassets/Img/styles.webp"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/.DS_Store",
       "PackagePath": "staticwebassets/Storage/.DS_Store"
     },
