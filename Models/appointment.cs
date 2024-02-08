@@ -13,6 +13,7 @@ namespace maturitetna.Models
 		public string id_haircut { get; set; }
 		public DateTime appointmentTime { get; set; } 
 		
+		public int id_appointment_type { get; set; }
 	}
 }
 

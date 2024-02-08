@@ -1,54 +1,40 @@
-﻿@model List<hairdresserEntity>
+﻿@model List<appointmentEntity>
 
-<div class="containerAdmin mid">
-    <div class="row pt=4">
-        <div class="col-9">
-            <h2 class="text-success">
-                Hairdressers overview
-            </h2>
+@if (Model != null && Model.Count > 0)
+{
+    <div CLASS="containerAdminMid">NO APPOINTMENTS YET</div>
+    <a asp-action="AddAppointments" asp-controller="Admin" class="add-button">Add</a>
+}
+else
+{
+    <div class="appointments-container">
+        <a asp-action="AddAppointments" asp-controller="Admin" class="add-button">Add</a>
+        <div class="day-selector">
+            <label>Choose a hairdresser:</label>
+            <select>
+                @foreach (var hairdresser in Model)
+                {
+                    <option value="@hairdresser.id_hairdresser">@hairdresser.id_hairdresser</option>
+                   
+                }
+                
+            </select>
+            <label for="day">Choose a day:</label>
+            <select id="day" name="day">
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+            </select>
         </div>
-        <div class="col-12 text-lg-end">
-           
+        <div class="appointments-grid">
+           @foreach (var appointment in Model)
+           {
+               <div class="appointment">@appointment.appointmentTime <p class="block">@appointment.id_user</p>  <p class="block">@appointment.id_appointment_type</p><button class="remove-buttonCenter">Remove</button></div>
+           }
+            
+          
         </div>
     </div>
-
-    <br />
-
-    @if(Model != null )
-    {
-        <table class="table table-bordered table-hover">
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Lastname</th>
-                <th>Email</th>
-                <th> <a asp-controller="Admin" asp-action="Create" class="btn adminAdd btn-primary">add a hairdresser</a></th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.name</td>
-                    <td>@item.lastname</td>
-                    <td>@item.email</td>
-                    <td>
-                        <div role="group" class="btn-group w-100">
-                            <a asp-controller="Admin" asp-action="EditHairdresser" asp-route-id="@item.id_hairdresser" class="btn btn-primary mx-1">
-                                Edit
-                            </a>
-                            <a class="btn btn-primary delete" asp-action="DeleteHairdresser" asp-route-id="@item.id_hairdresser" onclick="return confirm('Are you sure you want to delete this admin?')">Delete</a>
-                        </div>
-                    </td>
-                </tr>
-                        
-            }
-            </tbody>
-        </table>
-    }
-    else
-    {
-        <p>no records found</p>
-    }
-
-</div>
+}

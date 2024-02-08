@@ -21,6 +21,11 @@ public class AdminController : Controller
 
     public async Task<IActionResult> Index()
     {
+        var appointment = await _db.appointment.ToListAsync();
+        return View(appointment);
+    }
+    public async Task<IActionResult> Hairdressers()
+    {
         var hairdresser = await _db.hairdresser.ToListAsync();
         return View(hairdresser);
     }

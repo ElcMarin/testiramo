@@ -64,6 +64,10 @@ body {
   
   margin:100px 100px 0 100px;
 }
+.containerAdminMid{
+  margin:100px auto;
+}
+
 .containerAdminHair{
 
   margin:100px 200px 0 200px;
@@ -131,6 +135,7 @@ body {
 }
 .block{
   display:block;
+  
 }
 .vertical{
   display:flex !important;
@@ -345,4 +350,29 @@ body {
 .selectStyles{
   width:400px;
   margin:200px auto;
+}
+
+.containerAd{
+  margin:20px auto;
+}
+
+.rounded{
+  border-radius:20px;
+}
+
+.centerDiv{
+  width:450px;
+  margin:0 auto;
+}
+
+.centerText{
+  text-align: right !important;
+}
+.textColor{
+  color:black !important;
+}
+
+.remove-buttonCenter{
+  float:none;
+  
 }
