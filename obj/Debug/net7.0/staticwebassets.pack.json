@@ -125,12 +125,20 @@
       "PackagePath": "staticwebassets/Img/homePage.png"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/left.png",
+      "PackagePath": "staticwebassets/Img/left.png"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/lock.png",
       "PackagePath": "staticwebassets/Img/lock.png"
     },
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/low-maintenance-haircuts-for-men.jpg",
       "PackagePath": "staticwebassets/Img/low-maintenance-haircuts-for-men.jpg"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/right.png",
+      "PackagePath": "staticwebassets/Img/right.png"
     },
     {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/sidePic.webp",

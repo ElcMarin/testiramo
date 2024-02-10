@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3jj7OGnOwRKhovP5vGXVyoFoD9ZPvyqfVym6V5bB4RM=",
+  "Hash": "/LG9Zq+8Oy3JAX0ZDGtSBf+FeKiy3pHbQkY/V9k2zK8=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -493,6 +493,23 @@
       "OriginalItemSpec": "wwwroot/Img/homePage.png"
     },
     {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/left.png",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/left.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/left.png"
+    },
+    {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/lock.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
@@ -610,6 +627,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Img/Quiff.webp"
+    },
+    {
+      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/right.png",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/right.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/right.png"
     },
     {
       "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/SidePart.webp",
