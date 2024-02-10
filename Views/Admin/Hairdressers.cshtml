@@ -1,0 +1,54 @@
+﻿@model List<hairdresserEntity>
+
+<div class="containerAdminMid middle">
+    <div class="row pt=4 centerDiv backgroundColor text-black rounded bordered">
+        <div class="col-9">
+            <h2 class="text-success centerText">
+                Hairdressers overview
+            </h2>
+        </div>
+        <div class="col-12 text-lg-end">
+           
+        </div>
+    </div>
+
+    <br />
+
+    @if(Model != null )
+    {
+        <table class="table containerAd middle backgroundColor table-bordered table-hover">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th> <a asp-controller="Admin" asp-action="Create" class="btn adminAdd btn-primary">add a hairdresser</a></th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.name</td>
+                    <td>@item.lastname</td>
+                    <td>@item.email</td>
+                    <td>
+                        <div role="group" class="btn-group w-100">
+                            <a asp-controller="Admin" asp-action="EditHairdresser" asp-route-id="@item.id_hairdresser" class="btn btn-primary mx-1">
+                                Edit
+                            </a>
+                            <a class="btn btn-primary delete" asp-action="DeleteHairdresser" asp-route-id="@item.id_hairdresser" onclick="return confirm('Are you sure you want to delete this admin?')">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+                        
+            }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>no records found</p>
+    }
+
+</div>

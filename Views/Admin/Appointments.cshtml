@@ -1,0 +1,31 @@
+﻿@model appointmentEntity
+
+<div class="appointments-container">
+    <a asp-action="AddAppointments" asp-controller="Admin" class="add-button">Add</a>
+    <div class="day-selector">
+        <label>Choose a hairdresser:</label>
+        <select>
+            <option value="Janez">Janez</option>
+            <option value="Marjan">Marjan</option>
+        </select>
+        <label for="day">Choose a day:</label>
+        <select id="day" name="day">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+        </select>
+    </div>
+    <div class="appointments-grid">
+        <!-- Appointments will be dynamically generated using JavaScript or server-side logic -->
+        <div class="appointment">8:00 AM - 8:30 AM  <button class="remove-button">Remove</button></div>
+        <div class="appointment">8:45 AM - 9:15 AM</div>
+        <div class="appointment">8:45 AM - 9:15 AM</div>
+        <div class="appointment">8:45 AM - 9:15 AM</div>
+        <div class="appointment">8:45 AM - 9:15 AM</div>
+        <div class="appointment">8:45 AM - 9:15 AM</div>
+        <div class="appointment">8:45 AM - 9:15 AM</div>
+        <!-- Add more appointments here -->
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@model appointmentEntity
+<div class="form-container">
+    <h1 class="form-h1">Add Appointment</h1>
+    <form class="form-add" asp-action="AddAppointments" method="post" id="appointmentForm">
+        <label class="label-form">User Id:</label>
+        <input class="input-form" asp-for="id_user" type="text" id="userId" name="userId" required>
+
+        <label class="label-form" for="hairdresserId">Hairdresser ID:</label>
+        <input class="input-form" asp-for="id_hairdresser" type="text" id="hairdresserId" name="hairdresserId" required>
+
+        <label class="label-form" for="haircutId">Haircut ID:</label>
+        <input class="input-form" asp-for="id_haircut" type="text" id="haircutId" name="haircutId" required>
+
+        <label class="label-form" for="appointmentTime">Appointment Time:</label>
+        <input class="input-form" asp-for="appointmentTime" type="datetime-local" id="appointmentTime" name="appointmentTime" required>
+
+        <button CLASS="submitButton" type="submit">Submit</button>
+    </form>
+</div>
