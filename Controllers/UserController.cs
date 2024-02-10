@@ -94,7 +94,11 @@ public class UserController : Controller
     {
         return View();
     }
-    
+
+    public IActionResult Style()
+    {
+        return View();
+    }
 }
     
 

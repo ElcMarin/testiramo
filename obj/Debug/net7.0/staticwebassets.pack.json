@@ -133,6 +133,18 @@
       "PackagePath": "staticwebassets/Img/low-maintenance-haircuts-for-men.jpg"
     },
     {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/sidePic.webp",
+      "PackagePath": "staticwebassets/Img/sidePic.webp"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/sidePicTwo.jpeg",
+      "PackagePath": "staticwebassets/Img/sidePicTwo.jpeg"
+    },
+    {
+      "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/sidePick2.avif",
+      "PackagePath": "staticwebassets/Img/sidePick2.avif"
+    },
+    {
       "Id": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/styles.webp",
       "PackagePath": "staticwebassets/Img/styles.webp"
     },

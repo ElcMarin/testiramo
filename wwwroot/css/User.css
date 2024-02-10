@@ -235,3 +235,39 @@ body {
   background-color: #4444ea;
   color:white !important;
 }
+
+.containerTwo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 20px!important;
+  text-align:center;
+  margin-top:60px;
+}
+.itemTwoOne {
+  grid-column: 1 / span 2;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom:10px !important;
+}
+.autoFill{
+  object-fit: cover;
+  padding: 30px;
+}
+
+.linkButton{
+  background-color:lightblue;
+  color:black;
+  padding:10px;
+  border:1px solid lightgray;
+  text-decoration:none;
+}
+
+.absoluteLeft {
+  position: absolute;
+  top:auto;
+  right: 20px;
+}
