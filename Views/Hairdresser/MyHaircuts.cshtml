@@ -1,0 +1,65 @@
+﻿@* <div class="backgroundContainerImg"> *@
+@* <img class="backgroundImg" src="Img/background3.jpeg"/> *@
+
+<div class="rounded">
+
+
+
+    <div class="middleTitle ">
+        <h2 class="noBackground specialHeadingH">
+            My haircuts
+        </h2>
+        <ul>
+	        @foreach (hairdresserHaircutEntity hairdresserHaircut in Model.myHaircuts)
+            {
+			    <li style="display: flex; padding: 1rem; background: white; align-items:center;">
+                    <img height="60" alt="@hairdresserHaircut.haircut.image" src="@hairdresserHaircut.haircut.image" />
+                    <span>
+                         @hairdresserHaircut.haircut.style
+                    </span>
+
+                    <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@hairdresserHaircut.haircut.id_haircut">
+                        Remove this style
+                    </a>
+                </li>
+
+		    }
+        </ul>
+    </div>
+
+
+    <div class="middleTitle ">
+        <h2 class="noBackground specialHeadingH">
+            Other haircuts
+        </h2>
+        <ul>
+            @foreach (haircutEntity haircut in Model.allHaircuts)
+            {
+                <li style="display: flex; padding: 1rem; background: white; align-items:center;">
+                    <img height="60" alt="@haircut.image" src="@haircut.image" />
+                    <span>
+                        @haircut.style
+                    </span>
+                    <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@haircut.id_haircut">
+                        Toggle this style
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+
+
+    @*@foreach (haircutEntity haircut in Model.myHaircuts)
+    {
+        <div class="indexItem">
+            <img alt="@haircut.style" class="third" src="@haircut.image" />
+            <div 
+            <a asp-action="Calendar" class="book-hairdresser" asp-route-id_haircut="@haircut.id_haircut">
+                Book this style
+            </a>
+        </div>
+    }*@
+
+</div>
+@* </div> *@

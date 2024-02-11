@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/LG9Zq+8Oy3JAX0ZDGtSBf+FeKiy3pHbQkY/V9k2zK8=",
+  "Hash": "49onyDKWcppjQWgv9OlcehFjSsq6qlTg2IDveIqmmio=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "maturitetna/wwwroot",
       "Source": "maturitetna",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/obj/Debug/net7.0/scopedcss/bundle/maturitetna.styles.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/obj/Debug/net7.0/scopedcss/bundle/maturitetna.styles.css",
       "SourceId": "maturitetna",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "maturitetna.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/eliostante/Projects/maturitetna/obj/Debug/net7.0/scopedcss/bundle/maturitetna.styles.css"
+      "OriginalItemSpec": "/Users/eliostante/Projects/testiramo/obj/Debug/net7.0/scopedcss/bundle/maturitetna.styles.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/obj/Debug/net7.0/scopedcss/projectbundle/maturitetna.bundle.scp.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/obj/Debug/net7.0/scopedcss/projectbundle/maturitetna.bundle.scp.css",
       "SourceId": "maturitetna",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "maturitetna.bundle.scp.css",
       "AssetKind": "All",
@@ -48,30 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/eliostante/Projects/maturitetna/obj/Debug/net7.0/scopedcss/projectbundle/maturitetna.bundle.scp.css"
+      "OriginalItemSpec": "/Users/eliostante/Projects/testiramo/obj/Debug/net7.0/scopedcss/projectbundle/maturitetna.bundle.scp.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/.DS_Store",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/css/Admin.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
-      "BasePath": "_content/maturitetna",
-      "RelativePath": ".DS_Store",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/.DS_Store"
-    },
-    {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/css/Admin.css",
-      "SourceId": "maturitetna",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "css/Admin.css",
       "AssetKind": "All",
@@ -85,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/css/Admin.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/css/Hairdresser.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/css/Hairdresser.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "css/Hairdresser.css",
       "AssetKind": "All",
@@ -102,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/css/Hairdresser.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/css/site.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/css/site.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -119,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/css/User.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/css/User.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "css/User.css",
       "AssetKind": "All",
@@ -136,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/css/User.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/favicon.ico",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/favicon.ico",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -153,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Background.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Background.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Background.jpeg",
       "AssetKind": "All",
@@ -170,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/Img/Background.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/background3.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/background3.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/background3.jpeg",
       "AssetKind": "All",
@@ -187,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/Img/background3.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/backgroundTwo.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/backgroundTwo.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/backgroundTwo.webp",
       "AssetKind": "All",
@@ -204,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/Img/backgroundTwo.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/BroFlow.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/BroFlow.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/BroFlow.webp",
       "AssetKind": "All",
@@ -221,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/Img/BroFlow.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/BuzzCut.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/BuzzCut.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/BuzzCut.webp",
       "AssetKind": "All",
@@ -238,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/Img/BuzzCut.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/CombOver.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/CombOver.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/CombOver.webp",
       "AssetKind": "All",
@@ -255,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/Img/CombOver.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/CrewCut.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/CrewCut.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/CrewCut.jpeg",
       "AssetKind": "All",
@@ -272,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/Img/CrewCut.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Curtains.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Curtains.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Curtains.webp",
       "AssetKind": "All",
@@ -289,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/Img/Curtains.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/face-shape.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/face-shape.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/face-shape.webp",
       "AssetKind": "All",
@@ -306,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/Img/face-shape.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Fade.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Fade.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Fade.jpeg",
       "AssetKind": "All",
@@ -323,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/Img/Fade.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/FauxHawk.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/FauxHawk.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/FauxHawk.webp",
       "AssetKind": "All",
@@ -340,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/Img/FauxHawk.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/FrenchCrop.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/FrenchCrop.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/FrenchCrop.jpeg",
       "AssetKind": "All",
@@ -357,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/Img/FrenchCrop.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/hair-dye.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/hair-dye.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/hair-dye.png",
       "AssetKind": "All",
@@ -374,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/Img/hair-dye.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser2.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Hairdresser2.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Hairdresser2.jpeg",
       "AssetKind": "All",
@@ -391,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/Img/Hairdresser2.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser3.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Hairdresser3.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Hairdresser3.webp",
       "AssetKind": "All",
@@ -408,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/Img/Hairdresser3.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser4.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Hairdresser4.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Hairdresser4.jpeg",
       "AssetKind": "All",
@@ -425,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/Img/Hairdresser4.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser5.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Hairdresser5.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Hairdresser5.jpeg",
       "AssetKind": "All",
@@ -442,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/Img/Hairdresser5.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Hairdresser6.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Hairdresser6.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Hairdresser6.webp",
       "AssetKind": "All",
@@ -459,10 +442,10 @@
       "OriginalItemSpec": "wwwroot/Img/Hairdresser6.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/HighAndTight.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/HighAndTight.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/HighAndTight.webp",
       "AssetKind": "All",
@@ -476,10 +459,10 @@
       "OriginalItemSpec": "wwwroot/Img/HighAndTight.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/homePage.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/homePage.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/homePage.png",
       "AssetKind": "All",
@@ -493,10 +476,10 @@
       "OriginalItemSpec": "wwwroot/Img/homePage.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/left.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/left.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/left.png",
       "AssetKind": "All",
@@ -510,10 +493,10 @@
       "OriginalItemSpec": "wwwroot/Img/left.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/lock.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/lock.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/lock.png",
       "AssetKind": "All",
@@ -527,10 +510,10 @@
       "OriginalItemSpec": "wwwroot/Img/lock.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/low-maintenance-haircuts-for-men.jpg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/low-maintenance-haircuts-for-men.jpg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/low-maintenance-haircuts-for-men.jpg",
       "AssetKind": "All",
@@ -544,10 +527,10 @@
       "OriginalItemSpec": "wwwroot/Img/low-maintenance-haircuts-for-men.jpg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Matevz_Haircutter.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Matevz_Haircutter.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Matevz_Haircutter.webp",
       "AssetKind": "All",
@@ -561,10 +544,10 @@
       "OriginalItemSpec": "wwwroot/Img/Matevz_Haircutter.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/MessyHair.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/MessyHair.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/MessyHair.webp",
       "AssetKind": "All",
@@ -578,10 +561,10 @@
       "OriginalItemSpec": "wwwroot/Img/MessyHair.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Mohawk.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Mohawk.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Mohawk.jpeg",
       "AssetKind": "All",
@@ -595,10 +578,10 @@
       "OriginalItemSpec": "wwwroot/Img/Mohawk.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/ProstiDan.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/ProstiDan.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/ProstiDan.webp",
       "AssetKind": "All",
@@ -612,10 +595,10 @@
       "OriginalItemSpec": "wwwroot/Img/ProstiDan.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/Quiff.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/Quiff.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/Quiff.webp",
       "AssetKind": "All",
@@ -629,10 +612,10 @@
       "OriginalItemSpec": "wwwroot/Img/Quiff.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/right.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/right.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/right.png",
       "AssetKind": "All",
@@ -646,10 +629,10 @@
       "OriginalItemSpec": "wwwroot/Img/right.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/SidePart.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/SidePart.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/SidePart.webp",
       "AssetKind": "All",
@@ -663,10 +646,10 @@
       "OriginalItemSpec": "wwwroot/Img/SidePart.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/sidePic.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/sidePic.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/sidePic.webp",
       "AssetKind": "All",
@@ -680,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/Img/sidePic.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/sidePick2.avif",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/sidePick2.avif",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/sidePick2.avif",
       "AssetKind": "All",
@@ -697,10 +680,10 @@
       "OriginalItemSpec": "wwwroot/Img/sidePick2.avif"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/sidePicTwo.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/sidePicTwo.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/sidePicTwo.jpeg",
       "AssetKind": "All",
@@ -714,10 +697,10 @@
       "OriginalItemSpec": "wwwroot/Img/sidePicTwo.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/SlickBack.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/SlickBack.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/SlickBack.webp",
       "AssetKind": "All",
@@ -731,10 +714,10 @@
       "OriginalItemSpec": "wwwroot/Img/SlickBack.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/SpikyHair.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/SpikyHair.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/SpikyHair.webp",
       "AssetKind": "All",
@@ -748,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/Img/SpikyHair.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/styles.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/styles.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/styles.webp",
       "AssetKind": "All",
@@ -765,10 +748,10 @@
       "OriginalItemSpec": "wwwroot/Img/styles.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Img/TexturedFringe.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Img/TexturedFringe.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Img/TexturedFringe.webp",
       "AssetKind": "All",
@@ -782,10 +765,10 @@
       "OriginalItemSpec": "wwwroot/Img/TexturedFringe.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/js/site.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/js/site.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -799,10 +782,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -816,10 +799,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -833,10 +816,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -850,10 +833,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -867,10 +850,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -884,10 +867,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -901,10 +884,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -918,10 +901,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -935,10 +918,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -952,10 +935,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -969,10 +952,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -986,10 +969,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1003,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1020,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1037,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1054,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1071,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1088,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1105,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1122,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1139,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1156,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1173,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1190,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1207,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1224,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1241,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1258,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1275,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1292,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1309,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1326,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1343,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1360,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1377,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1394,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1411,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1428,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1445,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1462,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1479,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1496,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1513,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1530,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1547,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1564,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1581,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1598,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1615,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1632,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1649,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1666,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1683,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1700,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1717,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1734,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1751,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1768,27 +1751,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/.DS_Store",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Storage/ProfilePics/_1.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
-      "BasePath": "_content/maturitetna",
-      "RelativePath": "Storage/.DS_Store",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Storage/.DS_Store"
-    },
-    {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/_1.png",
-      "SourceId": "maturitetna",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Storage/ProfilePics/_1.png",
       "AssetKind": "All",
@@ -1802,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/_1.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/1_.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Storage/ProfilePics/1_.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Storage/ProfilePics/1_.png",
       "AssetKind": "All",
@@ -1819,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1_.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/1.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Storage/ProfilePics/1.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Storage/ProfilePics/1.png",
       "AssetKind": "All",
@@ -1836,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/default.png",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Storage/ProfilePics/default.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Storage/ProfilePics/default.png",
       "AssetKind": "All",
@@ -1853,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/default.png"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/haircutTypes.webp",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Storage/ProfilePics/haircutTypes.webp",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Storage/ProfilePics/haircutTypes.webp",
       "AssetKind": "All",
@@ -1870,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/haircutTypes.webp"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/profileSecond.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Storage/ProfilePics/profileSecond.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Storage/ProfilePics/profileSecond.jpeg",
       "AssetKind": "All",
@@ -1887,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/profileSecond.jpeg"
     },
     {
-      "Identity": "/Users/eliostante/Projects/maturitetna/wwwroot/Storage/ProfilePics/profilethree.jpeg",
+      "Identity": "/Users/eliostante/Projects/testiramo/wwwroot/Storage/ProfilePics/profilethree.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eliostante/Projects/maturitetna/wwwroot/",
+      "ContentRoot": "/Users/eliostante/Projects/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
       "RelativePath": "Storage/ProfilePics/profilethree.jpeg",
       "AssetKind": "All",

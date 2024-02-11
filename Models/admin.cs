@@ -11,8 +11,12 @@ namespace maturitetna.Models
         public string lastname { get; set; }
 		public string email { get; set; }
 		public string password { get; set; }
-		public DateTime created { get; set; } 
-		public char rights { get; set; }
-	}
+		public DateTime created { get; set; }
+
+        public adminEntity()
+        {
+            created = DateTime.UtcNow;
+        }
+    }
 }
 

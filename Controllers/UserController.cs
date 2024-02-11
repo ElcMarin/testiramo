@@ -33,7 +33,7 @@ public class UserController : Controller
             var user = _db.user.Find(i);
            
 
-            ViewBag.File = FileHelper.GetProfilePicture(i, user.rights);
+            ViewBag.File = FileHelper.GetProfilePicture(i, 'u');
 
             return View(user);
 
@@ -47,7 +47,7 @@ public class UserController : Controller
     public IActionResult Profile(userEntity user, IFormFile fileName)
     {
         user.id_user = int.Parse(HttpContext.Session.GetString("id"));
-        Console.WriteLine(user.id_user + " " + user.name + " " + user.lastname + " "  + user.rights);
+        Console.WriteLine(user.id_user + " " + user.name + " " + user.lastname + " "  + 'u');
         var variable = _db.user.Find(user.id_user);
         variable.name = user.name;
         variable.lastname = user.lastname;
@@ -58,7 +58,7 @@ public class UserController : Controller
         if (fileName != null)
         {
             // Sanitize the file name to remove invalid characters
-            string sanitizedFileName = string.Join("_", user.id_user.ToString(), user.rights.ToString()) + ".png";
+            string sanitizedFileName = string.Join("_", user.id_user.ToString(), 'u') + ".png";
             sanitizedFileName = new string(sanitizedFileName.Where(c => !Path.GetInvalidFileNameChars().Contains(c)).ToArray());
 
 // Combine the sanitized file name with the path
@@ -77,11 +77,10 @@ public class UserController : Controller
             //     fileName.CopyTo(stream);
             // }
         }
-        ViewBag.File = FileHelper.GetProfilePicture(user.id_user, user.rights);
+        ViewBag.File = FileHelper.GetProfilePicture(user.id_user, 'u');
         return View(user);
     }
 
-    
 
 
     public IActionResult Logout()
@@ -97,10 +96,12 @@ public class UserController : Controller
 
     public IActionResult Style()
     {
-        return View();
+        var haircuts = _db.haircut.ToList();
+
+        return View(haircuts);
     }
 
-    public IActionResult Calendar()
+    public IActionResult Calendar(int id_haircut)
     {
         return View();
     }

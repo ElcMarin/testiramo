@@ -236,7 +236,7 @@ public class AdminController : Controller
             var admin = _db.admin.Find(i);
            
 
-            ViewBag.File = FileHelper.GetProfilePicture(i, admin.rights);
+            ViewBag.File = FileHelper.GetProfilePicture(i, 'a');
 
             return View(admin);
 
@@ -250,7 +250,7 @@ public class AdminController : Controller
     public IActionResult Profile(adminEntity admin, IFormFile fileName)
     {
         admin.id_admin = int.Parse(HttpContext.Session.GetString("id"));
-        Console.WriteLine(admin.id_admin + " " + admin.name + " " + admin.lastname + " "  + admin.rights);
+        Console.WriteLine(admin.id_admin + " " + admin.name + " " + admin.lastname + " "  + 'a');
         var user = _db.admin.Find(admin.id_admin);
         user.name = admin.name;
         user.lastname = admin.lastname;
@@ -261,7 +261,7 @@ public class AdminController : Controller
         if (fileName != null)
         {
             // Sanitize the file name to remove invalid characters
-            string sanitizedFileName = string.Join("_", admin.id_admin.ToString(), admin.rights.ToString()) + ".png";
+            string sanitizedFileName = string.Join("_", admin.id_admin.ToString(), 'a') + ".png";
             sanitizedFileName = new string(sanitizedFileName.Where(c => !Path.GetInvalidFileNameChars().Contains(c)).ToArray());
 
 // Combine the sanitized file name with the path
@@ -280,7 +280,7 @@ public class AdminController : Controller
             //     fileName.CopyTo(stream);
             // }
         }
-        ViewBag.File = FileHelper.GetProfilePicture(admin.id_admin, admin.rights);
+        ViewBag.File = FileHelper.GetProfilePicture(admin.id_admin, 'a');
         return View(admin);
     }
 

@@ -1,9 +1,10 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using maturitetna.Models;
 using maturitetna.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using maturitetna.Models;
+using maturitetna.Services;
 
 namespace maturitetna.Controllers;
 
@@ -35,9 +36,40 @@ public class HomeController : Controller
 
     public IActionResult Register()
     {
+        Console.WriteLine("Register");
         return View();
     }
-    
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Register(RegisterModel model)
+    {
+        if (ModelState.IsValid)
+        {
+            var existingUser = await _db.user.AnyAsync(u => u.email == model.email);
+            if (existingUser)
+            {
+                ModelState.AddModelError(string.Empty, "Email already exists");
+                return View(model);
+            }
+
+            var user = new userEntity
+            {
+                name = model.name,
+                lastname = model.lastname,
+                email = model.email,
+                password = PasswordHelper.HashPassword(model.password)
+            };
+
+            
+            await _db.user.AddAsync(user);
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Login", "Home");
+        }
+        return View(model);
+    }
+
+
     public IActionResult Privacy()
     {
         return View();
@@ -54,7 +86,10 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
-            var hairdresser = await _db.hairdresser.FirstOrDefaultAsync(h => h.email == model.email && h.password == model.password);
+
+            var hashedPass = PasswordHelper.HashPassword(model.password);
+
+            var hairdresser = await _db.hairdresser.FirstOrDefaultAsync(h => h.email == model.email && h.password == hashedPass);
             if (hairdresser != null)
             {
                 HttpContext.Session.SetString("id", hairdresser.id_hairdresser.ToString());
@@ -63,7 +98,7 @@ public class HomeController : Controller
                 return RedirectToAction("Index", "Hairdresser");
             }
 
-            var admin = await _db.admin.FirstOrDefaultAsync(a => a.email == model.email && a.password == model.password);
+            var admin = await _db.admin.FirstOrDefaultAsync(a => a.email == model.email && a.password == hashedPass);
             if (admin != null)
             {
                 HttpContext.Session.SetString("id", admin.id_admin.ToString());
@@ -72,7 +107,7 @@ public class HomeController : Controller
                 return RedirectToAction("Index", "Admin");
             }
 
-            var user = await _db.user.FirstOrDefaultAsync(u => u.email == model.email && u.password == model.password);
+            var user = await _db.user.FirstOrDefaultAsync(u => u.email == model.email && u.password == hashedPass);
             if (user != null)
             {
                 HttpContext.Session.SetString("id", user.id_user.ToString());

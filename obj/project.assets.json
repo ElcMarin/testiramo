@@ -1030,11 +1030,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eliostante/Projects/maturitetna/maturitetna.csproj",
+      "projectUniqueName": "/Users/eliostante/Projects/testiramo/maturitetna.csproj",
       "projectName": "maturitetna",
-      "projectPath": "/Users/eliostante/Projects/maturitetna/maturitetna.csproj",
+      "projectPath": "/Users/eliostante/Projects/testiramo/maturitetna.csproj",
       "packagesPath": "/Users/eliostante/.nuget/packages/",
-      "outputPath": "/Users/eliostante/Projects/maturitetna/obj/",
+      "outputPath": "/Users/eliostante/Projects/testiramo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eliostante/.nuget/NuGet/NuGet.Config"

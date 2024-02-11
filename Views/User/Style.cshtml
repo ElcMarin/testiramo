@@ -4,101 +4,23 @@
 <a asp-action="Index" CLASS="linkButton ROUNDED rightAbsoluteTop pointer">BACK</a>
 <div class="containerIndex rounded">
        
+        
+
         <div class="middleTitle ">
             <h2 class="noBackground specialHeadingH">
                 Best styles on the market
             </h2>
         </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/Quiff.webp"/>
-            <a asp-action="Calendar" class="book-hairdresser">
-                Book this style
-            </a>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/FrenchCrop.jpeg"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/SlickBack.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/MessyHair.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/CombOver.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/CrewCut.jpeg"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/FauxHawk.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/BuzzCut.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/HighAndTight.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/Curtains.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/SidePart.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/BroFlow.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/TexturedFringe.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/Mohawk.jpeg"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
-        <div class="indexItem">
-            <img class="third" src="~/Img/SpikyHair.webp"/>
-            <button class="book-appointment-btn">
-                Book this style
-            </button>
-        </div>
+
+        @foreach (haircutEntity haircut in Model)
+        {
+            <div class="indexItem">
+            <img alt="@haircut.style" class="third" src="@haircut.image" />
+                <a asp-action="Calendar" class="book-hairdresser" asp-route-id_haircut="@haircut.id_haircut">
+                    Book this style
+                </a>
+            </div>
+        }
 
     </div>
 @* </div> *@

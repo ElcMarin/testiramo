@@ -9,7 +9,20 @@
                 <input class="inputField smallRound" type="text" asp-for="lastname" placeholder="Lastname">
                  <input class="inputField smallRound" type="email" asp-for="email" placeholder="Email">
                 <input class="inputField smallRound" type="password" asp-for="password" placeholder="Password">
-                
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        <strong>Oops!</strong> There was a problem with your submission:
+                        <ul>
+                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                            {
+                                <li>@error.ErrorMessage</li>
+                            }
+                        </ul>
+                    </div>
+                }
+
                 <button class="submitButton">Sign Up</button>
                 <a asp-action="Login" asp-controller="Home" class="link">Already have an account?</a>
             </form>
