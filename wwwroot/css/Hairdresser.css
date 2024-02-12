@@ -193,9 +193,44 @@ body {
   margin-bottom: 5px;
 }
 
+.listItem{
+  display: flex;
+  padding: 1rem;
+  background: white; 
+  align-items:center
+}
 
 
+.gridHaircuts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  max-width: calc(100% - 200px); /* 100px from left and 100px from right */
+  margin: 0 auto;
+}
 
+.grid-item {
+  display:block;
+  text-align: center; 
+  background-color:#f0f0f0;
+  width:auto;
+}
 
+.spaceIn{
+  padding:20px;
+}
+.round{
+  border-radius:20px;
+}
 
+.fullWidth{
+  margin:0 auto;
+}
 
+.textCenter{
+  text-align:center;
+}
+.half{
+  margin-left:30%;
+  margin-right:30%;
+}

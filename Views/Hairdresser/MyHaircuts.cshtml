@@ -5,47 +5,58 @@
 
 
 
-    <div class="middleTitle ">
-        <h2 class="noBackground specialHeadingH">
+    <div class="middleTitle">
+        <h2 class="noBackground specialHeadingH ">
             My haircuts
         </h2>
-        <ul>
-	        @foreach (hairdresserHaircutEntity hairdresserHaircut in Model.myHaircuts)
-            {
-			    <li style="display: flex; padding: 1rem; background: white; align-items:center;">
-                    <img height="60" alt="@hairdresserHaircut.haircut.image" src="@hairdresserHaircut.haircut.image" />
-                    <span>
-                         @hairdresserHaircut.haircut.style
-                    </span>
-
-                    <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@hairdresserHaircut.haircut.id_haircut">
-                        Remove this style
-                    </a>
-                </li>
-
-		    }
-        </ul>
+        <br/>
+        @if (Model.myHaircuts == null || Model.myHaircuts.Count == 0)
+        {
+            <hr class="half"/>
+            <h3 class="textCenter">no haircuts yet</h3>
+            <hr class="half"/>
+        }
+        else
+        {
+            <div class="gridHaircuts">
+                @foreach (var hairdresserHaircut in Model.myHaircuts)
+                {
+                    <div class="grid-item spaceIn round">
+                        <img style="display:block;" class="fullWidth" height="280" alt="@hairdresserHaircut.haircut.image" src="@hairdresserHaircut.haircut.image"/>
+                        <span style="display:block;">
+                            @hairdresserHaircut.haircut.style
+                        </span>
+                        <br/>
+                        <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@hairdresserHaircut.haircut.id_haircut">
+                            Remove this style
+                        </a>
+                    </div>
+                }
+            </div>
+        }
     </div>
-
+    <br/>
 
     <div class="middleTitle ">
         <h2 class="noBackground specialHeadingH">
             Other haircuts
         </h2>
-        <ul>
+        <br/>
+        <div class="gridHaircuts">
             @foreach (haircutEntity haircut in Model.allHaircuts)
             {
-                <li style="display: flex; padding: 1rem; background: white; align-items:center;">
-                    <img height="60" alt="@haircut.image" src="@haircut.image" />
-                    <span>
+                <div class="grid-item spaceIn round">
+                    <img style="display:block;" class="fullWidth" height="280" alt="@haircut.image" src="@haircut.image" />
+                    <span style="display:block;">
                         @haircut.style
                     </span>
+                    <br/>
                     <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@haircut.id_haircut">
                         Toggle this style
                     </a>
-                </li>
+                </div>
             }
-        </ul>
+        </div>
     </div>
 
 
@@ -62,4 +73,5 @@
     }*@
 
 </div>
+
 @* </div> *@

@@ -20,9 +20,11 @@ html {
 body {
   margin-bottom: 60px;
   /*background: linear-gradient(to bottom, #F7F7F2, #E4E6C3);*/
-  background-image: url("https://wallpapers.com/images/hd/hair-salon-background-kpbtp4e3xfukqeyj.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-image: url("https://wallpapers.com/images/hd/hair-salon-background-kpbtp4e3xfukqeyj.jpg");*/
+  background-image: url("https://st5.depositphotos.com/77482510/65197/i/450/depositphotos_651979272-stock-photo-abstract-pink-light-red-vector.jpg");
+  background-size:cover;
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
 }
 
 .icon{
