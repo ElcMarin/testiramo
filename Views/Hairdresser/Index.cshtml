@@ -2,15 +2,15 @@
     <div class="statistics">
         <div class="daily">
             <h3>Zasedeni termini danes:</h3>
-            <p>3</p>
+            <p>@(Model.stats.appointments_today)</p>
         </div>
         <div class="weekly">
             <h3>Zasedeni termini ta teden:</h3>
-            <p>15</p>
+            <p>@(Model.stats.appointments_this_week)</p>
         </div>
         <div class="monthly">
             <h3>Zasedeni termini ta mesec:</h3>
-            <p>50</p>
+            <p>@(Model.stats.appointments_this_month)</p>
         </div>
         <div class="schedule">
             <img src="Img/ProstiDan.webp" alt="Hairdresser">
@@ -18,30 +18,21 @@
         </div>
     </div>
     <div class="appointments">
-         <div class="appointment-card">
-            <h4>12:00 PM - 12:30 PM</h4>
-            <p>Custommer: Janez Novak</p>
-             <p>Hairstyle: Striženje</p>
-             <button class="remove-button">
-                 Remove Appointment
-             </button>
-          </div>
-        <div class="appointment-card">
-            <h4>12:00 PM - 12:30 PM</h4>
-            <p>Custommer: Janez Novak</p>
-            <p>Hairstyle: Striženje</p>
-            <button class="remove-button">
-                Remove Appointment
-            </button>
-        </div>
-        <div class="appointment-card">
-            <h4>12:00 PM - 12:30 PM</h4>
-            <p>Custommer: Janez Novak</p>
-            <p>Hairstyle: Striženje</p>
-            <button class="remove-button">
-                Remove Appointment
-            </button>
-        </div>
+        @foreach (appointmentEntity appointment in Model.my_appointments)
+        {
+            
+            <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
+                <div class="appointment-card">
+                <h4>@(appointment.appointmentTime.ToString("D"))</h4>
+                <h4>@(appointment.appointmentTime.TimeOfDay + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).TimeOfDay)</h4>
+                <p>Custommer: @(appointment.user.name + " " + appointment.user.lastname)</p>
+                <p>Hairstyle: @(appointment.haircut.style)</p>
+                <button class="remove-button">
+                    Remove Appointment
+                </button>
+            </div>
+            </form>
+        }
         
     </div>
 </div>

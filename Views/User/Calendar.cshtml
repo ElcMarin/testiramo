@@ -9,7 +9,7 @@
             </div>
             <i class="fas fa-angle-right next"><img src="~/Img/right.png"/></i>
         </div>
-        <div class="weekdays">
+        <div class="weekdays" >
             <div>Sun</div>
             <div>Mon</div>
             <div>Tue</div>
@@ -20,4 +20,13 @@
         </div>
         <div class="days"></div>
     </div>
+    <script>
+        document.addEventListener("calendarDayClicked", (e) => {
+			console.log(e.detail);
+            window.location.href = '/User/AvailableOnDay?'+ 'id_haircut=' + @Model.id_haircut + '&day=' + e.detail.day + '&month=' + e.detail.month + '&year=' + e.detail.year;
+		});
+        document.addEventListener("calendarMonthChanged", (e) => {
+            console.log(e.detail);
+        });
+    </script>
 </div>

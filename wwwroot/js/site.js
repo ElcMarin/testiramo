@@ -67,16 +67,42 @@ const renderCalendar = () => {
         days += `<div class="next-date">${j}</div>`;
         monthDays.innerHTML = days;
     }
+
+    const dayElements = document.querySelectorAll(".days div");
+    dayElements.forEach((dayElement) => {
+        dayElement.addEventListener("click", () => {
+            // Update the date when a day is clicked
+            document.dispatchEvent(new CustomEvent('calendarDayClicked', {
+                detail: {
+                    date: new Date(date.getFullYear(), date.getMonth() + 1, parseInt(dayElement.innerText)),
+                    day: parseInt(dayElement.innerText),
+                    month: date.getMonth() + 1,
+                    year: date.getFullYear(),
+                }
+            }));
+        });
+    });
 };
+
 
 document.querySelector(".prev").addEventListener("click", () => {
     date.setMonth(date.getMonth() - 1);
     renderCalendar();
+    document.dispatchEvent(new CustomEvent('calendarMonthChanged', {
+        detail: {
+            month: date.getMonth() + 1,
+        }
+    }));
 });
 
 document.querySelector(".next").addEventListener("click", () => {
     date.setMonth(date.getMonth() + 1);
     renderCalendar();
+    document.dispatchEvent(new CustomEvent('calendarMonthChanged', {
+        detail: {
+            month: date.getMonth() + 1,
+        }
+    }));
 });
 
 renderCalendar();

@@ -1,31 +1,85 @@
-﻿@model appointmentEntity
-
-<div class="appointments-container">
+﻿<div class="appointments-container">
     <a asp-action="AddAppointments" asp-controller="Admin" class="add-button">Add</a>
     <div class="day-selector">
-        <label>Choose a hairdresser:</label>
-        <select>
-            <option value="Janez">Janez</option>
-            <option value="Marjan">Marjan</option>
-        </select>
-        <label for="day">Choose a day:</label>
-        <select id="day" name="day">
-            <option value="Monday">Monday</option>
-            <option value="Tuesday">Tuesday</option>
-            <option value="Wednesday">Wednesday</option>
-            <option value="Thursday">Thursday</option>
-            <option value="Friday">Friday</option>
-        </select>
+        <form method="post" asp-action="Appointments" id="appointmentsForm">
+            <label>Choose a hairdresser:</label>
+            <select name="hairdresser_id" onchange="submitForm(this)">
+                @foreach (hairdresserEntity hairdresser in Model.availableHairdressers)
+		        {
+                    @if (Model.selectedHairdresser == hairdresser.id_hairdresser)
+                    {
+                        <option value="@hairdresser.id_hairdresser" selected="selected">@(hairdresser.name) @(hairdresser.lastname)</option>
+                    }
+                    else
+                    {
+                        <option value="@hairdresser.id_hairdresser">@(hairdresser.name) @(hairdresser.lastname)</option>
+                    }
+		        }
+            </select>
+            <label for="day">Choose a day:</label>
+            <select id="day" name="dayOfTheWeek" onchange="submitForm(this)">
+                @if (Model.selectedDay == 1)
+                {
+                    <option value="1" selected="selected">Monday</option>
+                } else { <option value="1">Monday</option> }
+
+
+                @if (Model.selectedDay == 2)
+                {
+                    <option value="2" selected="selected">Tuesday</option>
+                }
+                else
+                {
+                    <option value="2">Tuesday</option>
+                }
+
+                @if (Model.selectedDay == 3)
+                {
+                    <option value="3" selected="selected">Wednesday</option>
+                }
+                else
+                {
+                    <option value="3">Wednesday</option>
+                }
+
+                @if (Model.selectedDay == 4)
+                {
+                    <option value="4" selected="selected">Thursday</option>
+                }
+                else
+                {
+                    <option value="4">Thursday</option>
+                }
+
+                @if (Model.selectedDay == 5)
+                {
+                    <option value="5" selected="selected">Friday</option>
+                }
+                else
+                {
+                    <option value="5">Friday</option>
+                }
+            </select>
+        </form>
     </div>
+
+    <script>
+        function submitForm(selectElement) {
+            document.getElementById("appointmentsForm").submit();
+        }
+    </script>
+
     <div class="appointments-grid">
         <!-- Appointments will be dynamically generated using JavaScript or server-side logic -->
-        <div class="appointment">8:00 AM - 8:30 AM  <button class="remove-button">Remove</button></div>
-        <div class="appointment">8:45 AM - 9:15 AM</div>
-        <div class="appointment">8:45 AM - 9:15 AM</div>
-        <div class="appointment">8:45 AM - 9:15 AM</div>
-        <div class="appointment">8:45 AM - 9:15 AM</div>
-        <div class="appointment">8:45 AM - 9:15 AM</div>
-        <div class="appointment">8:45 AM - 9:15 AM</div>
+        @foreach (appointmentEntity appointment in Model.appointments)
+		{
+            <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
+			<div class="appointment">
+				@(appointment.appointmentTime.ToString("t")) - @(appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
+				<button class="remove-button">Remove</button>
+			</div>
+            </form>
+		}
         <!-- Add more appointments here -->
     </div>
 </div>

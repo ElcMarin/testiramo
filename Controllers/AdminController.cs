@@ -349,11 +349,54 @@ public async Task<IActionResult> Create(adminEntity admin)
 
     // APPOINTMENS
 
-    public IActionResult Appointments()
+    public IActionResult Appointments(int? hairdresser_id = null, int? dayOfTheWeek = null)
     {
-        return View();
+        var availableHairdressers = _db.hairdresser.ToList();
+
+        if (availableHairdressers.Count == 0)
+        {
+            return View();
+        }
+
+        if (hairdresser_id == null)
+        {
+            hairdresser_id = availableHairdressers.First().id_hairdresser;
+        }
+        if(dayOfTheWeek == null)
+        {
+            dayOfTheWeek = 1;
+        }
+
+        var hairdresser = _db.hairdresser.Find(hairdresser_id);
+
+        var startOfTheWeek = DateTime.Today.AddDays((int)DateTime.Today.DayOfWeek * -1);
+
+        var selectedDay = startOfTheWeek.AddDays((double)dayOfTheWeek);
+
+        var appointments = _db.appointment.Where(a => a.id_hairdresser == hairdresser_id && a.appointmentTime.Date == selectedDay).Include(a => a.user).Include(a => a.haircut);
+
+
+        return View(new {
+            availableHairdressers = availableHairdressers,
+            appointments = appointments,
+            selectedDay = dayOfTheWeek,
+            selectedHairdresser = hairdresser_id,
+        });
     }
-    
+
+    [HttpPost]
+    public IActionResult CancelAppointment(int appointment_id)
+    {
+        var appointment = _db.appointment.Find(appointment_id);
+        if (appointment == null)
+        {
+            return RedirectToAction("Index");
+        }
+        _db.appointment.Remove(appointment);
+        _db.SaveChanges();
+        return RedirectToAction("Index");
+    }
+
     public IActionResult AddAppointments()
     {
         return View();

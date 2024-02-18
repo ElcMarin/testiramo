@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eliostante/Projects/testiramo/maturitetna.csproj": {}
+    "/Users/eliostante/Downloads/testiramo/maturitetna.csproj": {}
   },
   "projects": {
-    "/Users/eliostante/Projects/testiramo/maturitetna.csproj": {
+    "/Users/eliostante/Downloads/testiramo/maturitetna.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eliostante/Projects/testiramo/maturitetna.csproj",
+        "projectUniqueName": "/Users/eliostante/Downloads/testiramo/maturitetna.csproj",
         "projectName": "maturitetna",
-        "projectPath": "/Users/eliostante/Projects/testiramo/maturitetna.csproj",
+        "projectPath": "/Users/eliostante/Downloads/testiramo/maturitetna.csproj",
         "packagesPath": "/Users/eliostante/.nuget/packages/",
-        "outputPath": "/Users/eliostante/Projects/testiramo/obj/",
+        "outputPath": "/Users/eliostante/Downloads/testiramo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eliostante/.nuget/NuGet/NuGet.Config"

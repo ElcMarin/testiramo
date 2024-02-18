@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FXIXeWiqfWzFGBFwAnTHu8VpGJsuegcPbHgpzXBr3fbmh7gSjIrrkEIa6a0Ms9dZO0Jh85PoAS6IUM06DWBfdg==",
+  "dgSpecHash": "dHVGzPCmCkeS2Ob+kaG+QY4gRm66v7s5cTyXXHCXg5ZEiBt4lsiF6t9yQ3nkJxscSMoqCJaqC2rRLu7uau1kfA==",
   "success": true,
-  "projectFilePath": "/Users/eliostante/Projects/testiramo/maturitetna.csproj",
+  "projectFilePath": "/Users/eliostante/Downloads/testiramo/maturitetna.csproj",
   "expectedPackageFiles": [
     "/Users/eliostante/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/eliostante/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",

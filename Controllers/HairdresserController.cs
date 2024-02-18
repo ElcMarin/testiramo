@@ -21,7 +21,24 @@ public class HairdresserController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var my_appointments = _db.appointment.Where(a => a.id_hairdresser == int.Parse(HttpContext.Session.GetString("id")) && a.appointmentTime >= DateTime.Now).Include(a => a.user).Include(a => a.haircut);
+
+        var currentDay = DateTime.Today;
+        var startOfWeek = currentDay.AddDays(-1 * (int)currentDay.DayOfWeek);
+        var endOfWeek = startOfWeek.AddDays(6);
+
+        int appointmentsToday = my_appointments.Where(a => a.appointmentTime.Date == DateTime.Today).Count();
+        int appointmentsThisWeek = my_appointments.Where(a => a.appointmentTime.Date >= startOfWeek && a.appointmentTime.Date <= endOfWeek).Count();
+        int appointmentsThisMonth = my_appointments.Where(a => a.appointmentTime.Month == currentDay.Month).Count();
+
+        var stats = new
+        {
+            appointments_today = appointmentsToday,
+            appointments_this_week = appointmentsThisWeek,
+            appointments_this_month = appointmentsThisMonth,
+        };
+
+        return View(new { my_appointments = my_appointments.OrderBy(a => a.appointmentTime), stats = stats });
     }
 
 
@@ -103,6 +120,20 @@ public class HairdresserController : Controller
         }
 
         return RedirectToAction("MyHaircuts");
+    }
+
+    [HttpPost]
+    public IActionResult CancelAppointment(int appointment_id)
+    {
+        var hairdresser_id = int.Parse(HttpContext.Session.GetString("id"));
+        var appointment = _db.appointment.Find(appointment_id);
+        if (appointment == null || appointment.id_hairdresser != hairdresser_id)
+        {
+            return RedirectToAction("Index");
+        }
+        _db.appointment.Remove(appointment);
+        _db.SaveChanges();
+        return RedirectToAction("Index");
     }
 
     public async Task<IActionResult> MyHaircuts()

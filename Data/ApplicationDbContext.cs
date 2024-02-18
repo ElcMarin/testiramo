@@ -9,7 +9,8 @@ namespace maturitetna.Data
 		public ApplicationDbContext(DbContextOptions <ApplicationDbContext>options) : base(options)
 		{
 		}
-		public DbSet<userEntity> user { get; set; }
+
+        public DbSet<userEntity> user { get; set; }
 
 		public DbSet<adminEntity> admin { get; set; }
 
