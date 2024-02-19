@@ -297,6 +297,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top:50px;
+  flex-direction:column;
 }
 
 .calendar {
@@ -392,4 +393,29 @@ body {
 
 .round{
   border-radius:20px;
+}
+
+.specialHeading{
+  font-family: "Al Bayan";
+  font-size:50px;
+  text-shadow: 4px 4px 4px rgba(171, 171, 171, 0.5);
+  margin:0 auto 30px;
+}
+
+.book{
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; 
+  padding: 20px;
+  color:black;
+  min-width:350px;
+  height:auto;
+}
+
+.round{
+  border-radius:20px;
+}
+
+.spanTwo{
+  grid-column:span 2;
 }

@@ -1,29 +1,36 @@
 ﻿@model Dictionary<hairdresserEntity, List<TimeSpan>>
+
 <div class="containerCalendar">
-    <h1>Available Times with Hairdressers</h1>
+    <h1 class="specialHeading">Available Times with Hairdressers</h1>
+    <div class="availableGrid">
+       
+        
+        @foreach (var kvp in Model)
+        {
 
-    @foreach (var kvp in Model)
-    {
-        <div style="border: 1px solid #ccc; margin-bottom: 20px; padding: 10px;">
-            <h2>@kvp.Key.name @kvp.Key.lastname</h2>
-            
-            <form method="post" asp-action="MakeAppointment">
-                <input type="hidden" name="hairdresserId" value="@kvp.Key.id_hairdresser" />
-                <input type="hidden" name="haircutId" value="@Context.Request.Query["id_haircut"]" />
-                <input type="hidden" name="day" value="@Context.Request.Query["day"]" />
-                <input type="hidden" name="month" value="@Context.Request.Query["month"]" />
-                <input type="hidden" name="year" value="@Context.Request.Query["year"]" />
+            <div class="book round">
+                <h2>@kvp.Key.name @kvp.Key.lastname</h2>
 
-                <label for="time">Select a time:</label>
-                <select name="time" id="time">
-                    @foreach (var timeSpan in kvp.Value)
-                    {
-                        <option value="@timeSpan">@timeSpan.ToString("hh\\:mm")</option>
-                    }
-                </select>
+                <form method="post" asp-action="MakeAppointment">
+                    
+                    <input type="hidden" name="hairdresserId" value="@kvp.Key.id_hairdresser"/>
+                    <input type="hidden" name="haircutId" value="@Context.Request.Query["id_haircut"]"/>
+                    <input type="hidden" name="day" value="@Context.Request.Query["day"]"/>
+                    <input type="hidden" name="month" value="@Context.Request.Query["month"]"/>
+                    <input type="hidden" name="year" value="@Context.Request.Query["year"]"/>
 
-                <button type="submit">Make Appointment</button>
-            </form>
-        </div>
-    }
+                    <label for="time">Select a time:</label>
+                    <select name="time" id="time">
+                        @foreach (var timeSpan in kvp.Value)
+                        {
+                            <option value="@timeSpan">@timeSpan.ToString("hh\\:mm")</option>
+                        }
+                    </select>
+
+                    <button type="submit">Make Appointment</button>
+                </form>
+            </div>
+        }
+    </div>
+    
 </div>
