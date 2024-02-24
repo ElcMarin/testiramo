@@ -21,7 +21,7 @@ public class UserController : Controller
 
     public IActionResult Index()
     {
-        var my_appointments = _db.appointment.Where(a => a.id_user == int.Parse(HttpContext.Session.GetString("id")) && a.appointmentTime >= DateTime.Now).Include(a => a.hairdresser).Include(a => a.haircut);
+        var my_appointments = _db.appointment.Where(a => a.id_user == int.Parse(HttpContext.Session.GetString("id")) && a.appointmentTime >= DateTime.Now).Include(a => a.hairdresser).Include(a => a.haircut).OrderBy(a => a.appointmentTime);
         return View(my_appointments);
     }
 

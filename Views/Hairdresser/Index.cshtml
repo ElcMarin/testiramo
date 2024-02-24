@@ -20,18 +20,24 @@
     <div class="appointments">
         @foreach (appointmentEntity appointment in Model.my_appointments)
         {
-            
-            <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
-                <div class="appointment-card">
-                <h4>@(appointment.appointmentTime.ToString("D"))</h4>
-                <h4>@(appointment.appointmentTime.TimeOfDay + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).TimeOfDay)</h4>
-                <p>Custommer: @(appointment.user.name + " " + appointment.user.lastname)</p>
-                <p>Hairstyle: @(appointment.haircut.style)</p>
-                <button class="remove-button">
-                    Remove Appointment
-                </button>
-            </div>
-            </form>
+            if (Model.my_appointments == null)
+            {
+                <h1 class="">No appointments yet</h1>
+            }
+            else
+            {
+                <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
+                    <div class="appointment-card">
+                        <h4>@(appointment.appointmentTime.ToString("D"))</h4>
+                        <h4>@(appointment.appointmentTime.TimeOfDay + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).TimeOfDay)</h4>
+                        <p>Custommer: @(appointment.user.name + " " + appointment.user.lastname)</p>
+                        <p>Hairstyle: @(appointment.haircut.style)</p>
+                        <button class="remove-button">
+                            Remove Appointment
+                        </button>
+                    </div>
+                </form>
+            }
         }
         
     </div>

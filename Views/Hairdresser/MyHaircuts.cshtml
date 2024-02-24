@@ -43,18 +43,46 @@
         </h2>
         <br/>
         <div class="gridHaircuts">
+            
             @foreach (haircutEntity haircut in Model.allHaircuts)
             {
-                <div class="grid-item spaceIn round">
-                    <img style="display:block;" class="fullWidth" height="280" alt="@haircut.image" src="@haircut.image" />
-                    <span style="display:block;">
-                        @haircut.style
-                    </span>
-                    <br/>
-                    <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@haircut.id_haircut">
-                        Toggle this style
-                    </a>
-                </div>
+                bool isHaircutInMyHaircuts = false;
+                foreach (var mh in Model.myHaircuts)
+                {
+                    if (mh.haircut.id_haircut == haircut.id_haircut)
+                    {
+                        isHaircutInMyHaircuts = true;
+                        break; 
+                    }
+                }
+
+                if (isHaircutInMyHaircuts == false)
+                {
+                    
+                    <div class="grid-item spaceIn round">
+                        <img style="display:block;" class="fullWidth" height="280" alt="@haircut.image" src="@haircut.image"/>
+                        <span style="display:block;">
+                            @haircut.style
+                        </span>
+                        <br/>
+                        <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@haircut.id_haircut">
+                            Toggle this style
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    @*<div class="grid-item spaceIn round">
+                        <img style="display:block;" class="fullWidth" height="280" alt="@haircut.image" src="@haircut.image"/>
+                        <span style="display:block;">
+                            @haircut.style
+                        </span>
+                        <br/>
+                        <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@haircut.id_haircut">
+                            Owned - remove
+                        </a>
+                    </div>*@
+                }
             }
         </div>
     </div>
