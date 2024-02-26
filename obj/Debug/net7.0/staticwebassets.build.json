@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2lF9LdfzFtwuEjqrbJAPvbzVGDwy0OvYbNQsF8eiNtI=",
+  "Hash": "LWrZuVsWzzhL/zeYQfuAgpXa8efe5J1rnDCBiikXgoc=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/appointmentSuccessfull.jpeg",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Downloads/testiramo/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Img/appointmentSuccessfull.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Img/appointmentSuccessfull.jpeg"
     },
     {
       "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Background.jpeg",

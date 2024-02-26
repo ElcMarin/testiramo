@@ -5,15 +5,23 @@
         <div class="twoItem itemTwoOne round">
             <h2>Your Upcoming Appointments</h2>
             <div class="upcoming-appointments">
-            @foreach(appointmentEntity appointment in Model)
-            {
+                
+                @* @if (Model.appointmentEntity == null || Model.appointmentEntity.Count == 0) *@
+                @* { *@
+                @*     <hr class="half"/> *@
+                @*     <h3 class="textCenter">You Have No Appointments Yet</h3> *@
+                @*     <hr class="half"/> *@
+                @* } *@
+                
+                @foreach (appointmentEntity appointment in Model)
+                {
                     <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
-                    <div class="appointment panel gray">
+                        <div class="appointment panel gray">
                             Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
-                                <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
-                    </div>   
+                            <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
+                        </div>
                     </form>
-            }
+                }
             </div>
         </div>
         <div class="spanTwo"> 

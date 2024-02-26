@@ -67,7 +67,7 @@ public class AdminController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> EditHairdresser(int id, [Bind("id_hairdresser,name,lastname,email,password")] hairdresserEntity hairdresser)
+    public async Task<IActionResult> EditHairdresser(int id, [Bind("id_hairdresser,name,lastname,email,is_working,startTime,endTime")] hairdresserEntity hairdresser)
     {
         if (id != hairdresser.id_hairdresser)
         {
@@ -86,18 +86,10 @@ public class AdminController : Controller
                 // Handle exception
             }
 
-            return RedirectToAction(nameof(Index)); // Redirect to admin list or another page
+            return RedirectToAction(nameof(Hairdressers)); // Redirect to admin list or another page
         }
         return View(hairdresser);
     }
-    
-    //
-    //
-    
-    //
-    //
-    //
-    
     
     
     

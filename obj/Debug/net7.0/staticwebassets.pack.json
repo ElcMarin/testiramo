@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets/Img/TexturedFringe.webp"
     },
     {
+      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/appointmentSuccessfull.jpeg",
+      "PackagePath": "staticwebassets/Img/appointmentSuccessfull.jpeg"
+    },
+    {
       "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/background3.jpeg",
       "PackagePath": "staticwebassets/Img/background3.jpeg"
     },

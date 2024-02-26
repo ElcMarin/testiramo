@@ -1,5 +1,16 @@
 ﻿@model appointmentEntity
-<div>
-	Created an appointment
-	@(Model.user.name) - @(Model.hairdresser.name) - @(Model.appointmentTime) - @(Model.haircut.style) - @(Model.haircut.duration) minutes
+<div class="wrapperSuccess">
+	<div class="containerSuccess">
+		<h2>Appointment Confirmation</h2>
+		<div class="appointment-info">
+			Created an appointment<br>
+			@(Model.user.name) - @(Model.hairdresser.name) - @(Model.appointmentTime) - @(Model.haircut.style) - @(Model.haircut.duration) minutes
+		</div>
+		<img class="image300" src="~/Img/appointmentSuccessfull.jpeg" alt="Appointment Image">
+		<br/>
+		<a asp-action="Index" class="linkButton">
+			CONTINUE
+		</a>
+	</div>
 </div>
+

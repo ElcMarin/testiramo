@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-4">
                         <label asp-for="name">Name:</label>
-                        <input required="" asp-for="name" class="form-control zweiHundert"/>
+                        <input required asp-for="name" class="form-control zweiHundert"/>
                         <span asp-validation-for="name"></span>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col-4">
                         <label asp-for="lastname"></label>
-                        <input required="" asp-for="lastname" class="form-control zweiHundert"/>
+                        <input required asp-for="lastname" class="form-control zweiHundert"/>
                         <span asp-validation-for="lastname"></span>
                     </div>
                 </div>
@@ -29,17 +29,25 @@
                 <div class="row">
                     <div class="col-4">
                         <label asp-for="email"></label>
-                        <input required="" asp-for="email" class="form-control zweiHundert"/>
+                        <input required asp-for="email" class="form-control zweiHundert"/>
                         <span asp-validation-for="email"></span>
                     </div>
                 </div>
                 <br/>
                 <div class="row">
-                    <div class="col-4">
-                        <label>Password (Hashed)</label>
-                        <input disabled asp-for="password" class="form-control zweiHundert"/>
-                    </div>
-
+                    
+                    <label class="data">Is Working <input asp-for="is_working" type="checkbox" /></label>
+                    
+                </div>
+                <div class="row">
+                    <label asp-for="startTime"></label>
+                                       <input required="" asp-for="startTime" class="form-control zweiHundert"/>
+                                       <span asp-validation-for="startTime"></span>
+                    <br/>
+                    <label asp-for="endTime"></label>
+                                       <input asp-for="endTime" type="time" class="form-control" value="endTime" />
+                                       <span asp-validation-for="endTime"></span>
+                  
                 </div>
                 <br/>
                 <div class="row">
@@ -52,7 +60,7 @@
             
 
             <div class="rightSide posCenter">
-                <img class="image300" src="~/Img/styles.webp" alt="styles">
+                <img class="image600" src="~/Img/styles.webp" alt="styles">
                 <a asp-action="Styles" class="btn btn-primary">Edit styles</a>
             </div>
         </div>

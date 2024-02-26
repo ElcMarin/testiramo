@@ -9,7 +9,7 @@
         {
 
             <div class="book round">
-                <h2>@kvp.Key.name @kvp.Key.lastname</h2>
+                <h2>@kvp.Key.name.ToUpper() @kvp.Key.lastname.ToUpper()</h2>
 
                 <form method="post" asp-action="MakeAppointment">
                     

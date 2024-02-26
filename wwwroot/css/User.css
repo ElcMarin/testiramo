@@ -113,6 +113,7 @@ body {
 }
 
 .containerIndex {
+  position:relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   grid-gap: 10px; 
@@ -418,4 +419,43 @@ body {
 
 .spanTwo{
   grid-column:span 2;
+}
+
+.wrapperSuccess{
+  display: flex;
+ justify-content: center;
+ margin-top:150px;
+ 
+}
+.containerSuccess{
+  box-shadow: 10px 10px 10px #beb3b3;
+  height:500px;
+  width:750px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.appointment-info {
+  margin-bottom: 20px;
+}
+
+.image300{
+  margin-top:25px;
+  width:500px !important;
+}
+
+.description {
+  position: absolute;
+  width: 100%;
+ 
+  background-color: #f1f1f1;
+  color: black;
+  padding: 10px; 
+  box-sizing: border-box;
+}
+
+.round{
+  border-radius:15px;
 }
