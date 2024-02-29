@@ -18,36 +18,33 @@
         </div>
     </div>
     <div id="appointmentsNull" class="appointments">
-        @* @{ *@
-        @*     
-        @*     { *@
-        @*         <h1 class="">No appointments yet</h1> *@
-        @*     } *@
         
-        @* *@
-        @* mam sliko shranjeno ze da kaj se zgodi ce je prazno.. sam nevem ki kurac je shranjena, ker mislim da je v drugih projektih *@
-        @* } *@
-        @foreach (appointmentEntity appointment in Model.my_appointments)
-        {
+       
+            @foreach (appointmentEntity appointment in Model.my_appointments)
+            {
+                <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
+                    <div class="appointment-card">
+                        <h4>@(appointment.appointmentTime.ToString("D"))</h4>
+                        <h4>@(appointment.appointmentTime.TimeOfDay + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).TimeOfDay)</h4>
+                        <p>Custommer: @(appointment.user.name + " " + appointment.user.lastname)</p>
+                        <p>Hairstyle: @(appointment.haircut.style)</p>
+                        <button class="remove-button">
+                            Remove Appointment
+                        </button>
+                    </div>
+                </form>
 
-
-            <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
-                <div class="appointment-card">
-                    <h4>@(appointment.appointmentTime.ToString("D"))</h4>
-                    <h4>@(appointment.appointmentTime.TimeOfDay + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).TimeOfDay)</h4>
-                    <p>Custommer: @(appointment.user.name + " " + appointment.user.lastname)</p>
-                    <p>Hairstyle: @(appointment.haircut.style)</p>
-                    <button class="remove-button">
-                        Remove Appointment
-                    </button>
-                </div>
-            </form>
-        }
+            }
+        
         <script>
-        if (document.getElementById("appointmentsNull") == null){
-            document.getElementById("appointmentsNull").innerHTML = '<img src="~/Img/ProstiDan.webp">'    
-        }
-        
+       let appointmentsNull = document.getElementById("appointmentsNull");
+           let appointmentsNull = document.getElementById("appointmentsNull");
+               if (!appointmentsNull || appointmentsNull.innerHTML.trim() === "") {
+              
+                   let img = document.createElement("img");
+                   img.src = "~/Img/ProstiDan.webp";
+                   document.body.appendChild(img);
+               }
         </script>
     </div>
 </div>

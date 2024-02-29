@@ -1,6 +1,6 @@
 ﻿@model List<appointmentEntity>
 
-@if (Model != null && Model.Count > 0)
+@if (Model == null && Model.Count < 0)
 {
     <div CLASS="containerAdminMid">NO APPOINTMENTS YET</div>
     <a asp-action="AddAppointments" asp-controller="Admin" class="add-button">Add</a>

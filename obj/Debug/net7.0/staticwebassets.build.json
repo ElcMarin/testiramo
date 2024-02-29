@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CaVC+RCT6GUbZ7Evg0fzFYHlf9q9D0xnZaZ+P8PSN6w=",
+  "Hash": "SPoV3DUKTl7Qi29kpk2dzGsQJ7hjl/aXTO+RwqUpkoA=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -1819,12 +1819,12 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1_h.png"
     },
     {
-      "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1.png",
+      "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1.jpeg",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/eliostante/Downloads/testiramo/wwwroot/",
       "BasePath": "_content/maturitetna",
-      "RelativePath": "Storage/ProfilePics/1.png",
+      "RelativePath": "Storage/ProfilePics/1.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1833,7 +1833,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1.png"
+      "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1.jpeg"
+    },
+    {
+      "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/2_h.png",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Downloads/testiramo/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Storage/ProfilePics/2_h.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Storage/ProfilePics/2_h.png"
     },
     {
       "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/2_u.png",

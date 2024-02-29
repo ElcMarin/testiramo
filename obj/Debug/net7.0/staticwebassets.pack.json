@@ -157,8 +157,8 @@
       "PackagePath": "staticwebassets/Img/styles.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1.png",
-      "PackagePath": "staticwebassets/Storage/ProfilePics/1.png"
+      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1.jpeg",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/1.jpeg"
     },
     {
       "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1_.png",
@@ -167,6 +167,10 @@
     {
       "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1_h.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/1_h.png"
+    },
+    {
+      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/2_h.png",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/2_h.png"
     },
     {
       "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/2_u.png",
