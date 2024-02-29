@@ -1,36 +1,50 @@
 ﻿@model Dictionary<hairdresserEntity, List<TimeSpan>>
 
+<a asp-action="Calendar" class="linkButton ROUNDED rightAbsoluteTop pointer">BACK</a>
 <div class="containerCalendar">
     <h1 class="specialHeading">Available Times with Hairdressers</h1>
-    <div class="availableGrid">
-       
+   
+        <div class="twoGrid">
         
-        @foreach (var kvp in Model)
-        {
+            @foreach (var kvp in Model)
+            {
+            
+                <div class="book round shadowed">
+                    <h2>@kvp.Key.name.ToUpper() @kvp.Key.lastname.ToUpper()</h2>
 
-            <div class="book round">
-                <h2>@kvp.Key.name.ToUpper() @kvp.Key.lastname.ToUpper()</h2>
-
-                <form method="post" asp-action="MakeAppointment">
+                    <form method="post" asp-action="MakeAppointment">
                     
-                    <input type="hidden" name="hairdresserId" value="@kvp.Key.id_hairdresser"/>
-                    <input type="hidden" name="haircutId" value="@Context.Request.Query["id_haircut"]"/>
-                    <input type="hidden" name="day" value="@Context.Request.Query["day"]"/>
-                    <input type="hidden" name="month" value="@Context.Request.Query["month"]"/>
-                    <input type="hidden" name="year" value="@Context.Request.Query["year"]"/>
+                        <input type="hidden" name="hairdresserId" value="@kvp.Key.id_hairdresser"/>
+                        <input type="hidden" name="haircutId" value="@Context.Request.Query["id_haircut"]"/>
+                        <input type="hidden" name="day" value="@Context.Request.Query["day"]"/>
+                        <input type="hidden" name="month" value="@Context.Request.Query["month"]"/>
+                        <input type="hidden" name="year" value="@Context.Request.Query["year"]"/>
 
-                    <label for="time">Select a time:</label>
-                    <select name="time" id="time">
-                        @foreach (var timeSpan in kvp.Value)
-                        {
-                            <option value="@timeSpan">@timeSpan.ToString("hh\\:mm")</option>
+                        <label for="time">Select a time:</label>
+                        <select name="time" id="time">
+                            @foreach (var timeSpan in kvp.Value)
+                            {
+                                <option value="@timeSpan">@timeSpan.ToString("hh\\:mm")</option>
+                            }
+                        </select>
+                    
+                        <button type="submit">Make Appointment</button>
+                        <div style="margin-left:5px;" class="bordered">
+                            <label for="repeat">Reschedule in 14 days</label>
+                            <input id="repeat" type="checkbox"/>
+                        </div>
+                        @{
+                            string hairdresserPictureUrl = "/Storage/ProfilePics/" + kvp.Key.id_hairdresser + "_h.png";
                         }
-                    </select>
-
-                    <button type="submit">Make Appointment</button>
-                </form>
-            </div>
-        }
-    </div>
+                        <div class="middlePic">
+                            <img class="profilePicture150" src="@hairdresserPictureUrl" alt="Hairdresser Picture" />
+                        </div>
+                    </form>
+                </div>
+            
+            
+            }
+        </div>
+    
     
 </div>

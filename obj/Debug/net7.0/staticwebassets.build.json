@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LWrZuVsWzzhL/zeYQfuAgpXa8efe5J1rnDCBiikXgoc=",
+  "Hash": "CaVC+RCT6GUbZ7Evg0fzFYHlf9q9D0xnZaZ+P8PSN6w=",
   "Source": "maturitetna",
   "BasePath": "_content/maturitetna",
   "Mode": "Default",
@@ -1802,6 +1802,23 @@
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1_.png"
     },
     {
+      "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1_h.png",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Downloads/testiramo/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Storage/ProfilePics/1_h.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1_h.png"
+    },
+    {
       "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1.png",
       "SourceId": "maturitetna",
       "SourceType": "Discovered",
@@ -1817,6 +1834,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Storage/ProfilePics/1.png"
+    },
+    {
+      "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/2_u.png",
+      "SourceId": "maturitetna",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eliostante/Downloads/testiramo/wwwroot/",
+      "BasePath": "_content/maturitetna",
+      "RelativePath": "Storage/ProfilePics/2_u.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Storage/ProfilePics/2_u.png"
     },
     {
       "Identity": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/default.png",

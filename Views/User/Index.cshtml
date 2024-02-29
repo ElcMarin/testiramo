@@ -1,4 +1,6 @@
-﻿@* <div class="backgroundContainerImg"> *@
+﻿
+
+@* <div class="backgroundContainerImg"> *@
 @* <img class="backgroundImg" src="Img/background3.jpeg"/> *@
 <a asp-action="Style" CLASS="rightAbsoluteTop linkButton rounded">BOOK AN APPOINTMENT</a>
     <div class="containerTwo rounded">
@@ -16,10 +18,11 @@
                 @foreach (appointmentEntity appointment in Model)
                 {
                     <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
-                        <div class="appointment panel gray">
-                            Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
-                            <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
-                        </div>
+                      
+                            <div class="appointment panel gray">
+                                Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
+                                <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
+                            </div>
                     </form>
                 }
             </div>

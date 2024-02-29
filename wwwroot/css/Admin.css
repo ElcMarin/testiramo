@@ -380,3 +380,7 @@ body {
 .image600{
   width: 600px;
 }
+
+.shadowed{
+  box-shadow:5px 5px 15px #e0e0e0;
+}
