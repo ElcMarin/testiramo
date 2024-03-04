@@ -58,7 +58,8 @@ public class HomeController : Controller
                 name = model.name,
                 lastname = model.lastname,
                 email = model.email,
-                password = PasswordHelper.HashPassword(model.password)
+                password = PasswordHelper.HashPassword(model.password), 
+                created = DateTime.UtcNow
             };
 
             

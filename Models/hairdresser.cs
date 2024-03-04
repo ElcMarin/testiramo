@@ -34,8 +34,7 @@ namespace maturitetna.Models
 
         public hairdresserEntity()
         {
-            created = DateTime.UtcNow;
-            gender = Gender.Male;
+	        
         }
     }
 

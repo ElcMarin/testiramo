@@ -16,7 +16,7 @@ namespace maturitetna.Models
 
 		public userEntity()
 		{
-            created = DateTime.UtcNow;
+            // created = DateTime.UtcNow;
         }
 	}
 	

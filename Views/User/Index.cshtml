@@ -19,10 +19,11 @@
                 {
                     <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
                       
-                            <div class="appointment panel gray">
-                                Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
-                                <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
-                            </div>
+                        <div class="appointment panel gray">
+                            Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
+                            <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
+                        </div>
+                        
                     </form>
                 }
             </div>
