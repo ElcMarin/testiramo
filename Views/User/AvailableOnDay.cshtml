@@ -3,6 +3,13 @@
 <a asp-action="Calendar" asp-route-id_haircut="@Context.Request.Query["id_haircut"]" class="linkButton ROUNDED rightAbsoluteTop pointer">BACK</a>
 <div class="containerCalendar">
     <h1 class="specialHeading">Available Times with Hairdressers</h1>
+    <label style="font-size:20px !important; color:  white;">Filter Hairdressers</label>
+    <select>
+        <option>EVERYONE</option>
+        <option>MALE</option>
+        <option>FEMALE</option>
+    </select>
+    <br/>
    
         <div class="twoGrid">
         

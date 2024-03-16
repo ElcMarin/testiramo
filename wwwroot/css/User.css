@@ -306,12 +306,14 @@ body {
   height: 832px;
   background-color: #222227;
   box-shadow: 0 8px 48px rgba(0, 0, 0, 0.4);
+  border-radius:10px;
 }
 
 .month {
+  border-radius:10px;
   width: 100%;
   height: 192px;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0 !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -389,7 +391,8 @@ body {
 }
 
 .today {
-  background-color: #167e56;
+  background-color: #f0f0f0;
+  color:black !important;
 }
 
 .round{
@@ -482,4 +485,8 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: auto;
   grid-gap: 20px; 
+}
+
+additional-info{
+  grid-row:span 2;
 }

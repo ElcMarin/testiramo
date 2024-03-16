@@ -1,55 +1,57 @@
 ﻿@model userEntity
 
-<form method="post" asp-action="EditUser">
-    <input asp-for="id_user" hidden/>
-    <div class="border p-5">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="form-group row">
-            <h2 class="text-black">Edit the user</h2>
-        </div>
-        <br/>
-        <div class="row">
-            <div class="col-4">
-                <label asp-for="name">Name</label>
-                <input required="" asp-for="name" class="form-control"/>
-                <span asp-validation-for="name"></span>
+<div class="containerAdminHair">
+    <form method="post" asp-action="EditUser">
+        <input asp-for="id_user" hidden/>
+        <div class="bordered spaceIn  rounded size backgroundColor  twoGrid">
+            <div class="posCenter">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group row">
+                    <h2 class="text-black">Edit Hairdresser</h2>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label asp-for="name">Name:</label>
+                        <input required asp-for="name" class="form-control zweiHundert"/>
+                        <span asp-validation-for="name"></span>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-4">
+                        <label asp-for="lastname"></label>
+                        <input required asp-for="lastname" class="form-control zweiHundert"/>
+                        <span asp-validation-for="lastname"></span>
+                    </div>
+                </div>
+
+                <br/>
+                <div class="row">
+                    <div class="col-4">
+                        <label asp-for="email"></label>
+                        <input required asp-for="email" class="form-control zweiHundert"/>
+                        <span asp-validation-for="email"></span>
+                    </div>
+                </div>
+                <br/>
+               
+                <br/>
+                <div class="row">
+                    <div class="w-12 btn-group" role="group">
+                        <input type="submit" class="btn btn-primary mx-1 twoButtons">
+                        <a asp-action="Users" class="btn btn-primary twoButtons">Back to List</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <br/>
-        <div class="row">
-            <div class="col-4">
-                <label asp-for="lastname">Lastname</label>
-                <input required="" asp-for="lastname" class="form-control"/>
-                <span asp-validation-for="lastname"></span>
-            </div>
-        </div>
-        <br/>
-        <div class="row">
-            <div class="col-4">
-                <label asp-for="email">Email</label>
-                <input required="" asp-for="email" class="form-control"/>
-                <span asp-validation-for="email"></span>
-            </div>
-        </div>
-        <br/>
-        <div class="row">
-            <div class="col-4">
-                            <label>Password</label>
-                            <input disabled asp-for="password" class="form-control"/>
-                        </div>
             
-            <!-- <div class="col-4">
-                <label asp-for="password"></label>
-                <input required="" asp-for="password" class="form-control"/>
-                <span asp-validation-for="password"></span>
+
+            <div class="rightSide posCenter">
+                <img class="image450" src="~/Img/editingProfile.webp" alt="styles">
+                
             </div>
-            -->
         </div>
-        <br/>
-        <div class="w-12 btn-group" role="group">
-            <a type="submit" asp-action="Users" asp-controller="Admin" class="btn btn-primary mx-1">Submit</a>
-            <a asp-action="Users" class="btn btn-primary">Back to List</a>
-            
-        </div>
-    </div>
-</form>
+        
+    </form>
+</div>
+
+

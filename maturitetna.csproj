@@ -24,6 +24,7 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\Storage\" />
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="Views\Admin\Create.cshtml" />
@@ -33,5 +34,44 @@
     <AdditionalFiles Include="Views\Hairdresser\Index.cshtml" />
     <AdditionalFiles Include="Views\User\Logout.cshtml" />
     <AdditionalFiles Include="Views\User\Profile.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Background.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\background3.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\backgroundTwo.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\BroFlow.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\BuzzCut.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\CombOver.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\CrewCut.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Curtains.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\face-shape.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Fade.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\FauxHawk.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\FrenchCrop.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\hair-dye.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Hairdresser2.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Hairdresser3.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Hairdresser4.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Hairdresser5.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Hairdresser6.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\HighAndTight.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\homePage.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\left.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\lock.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\low-maintenance-haircuts-for-men.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Matevz_Haircutter.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\MessyHair.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Mohawk.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\ProstiDan.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\Quiff.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\right.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\SidePart.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\sidePic.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\sidePick2.avif" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\sidePicTwo.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\SlickBack.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\SpikyHair.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\styles.webp" />
+    <_ContentIncludedByDefault Remove="wwwroot\Img\TexturedFringe.webp" />
   </ItemGroup>
 </Project>

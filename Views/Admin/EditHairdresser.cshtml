@@ -35,6 +35,14 @@
                 </div>
                 <br/>
                 <div class="row">
+                    <div class="col-4">
+                                        <label asp-for="gender"></label>
+                                        <input required asp-for="gender" class="form-control zweiHundert"/>
+                                        <span asp-validation-for="gender"></span>
+                                    </div>
+                                </div>
+                <br/>
+                <div class="row">
                     
                     <label class="data">Is Working <input asp-for="is_working" type="checkbox" /></label>
                     
@@ -53,7 +61,7 @@
                 <div class="row">
                     <div class="w-12 btn-group" role="group">
                         <input type="submit" class="btn btn-primary mx-1 twoButtons">
-                        <a asp-action="Index" class="btn btn-primary twoButtons">Back to List</a>
+                        <a asp-action="Hairdressers" class="btn btn-primary twoButtons">Back to List</a>
                     </div>
                 </div>
             </div>

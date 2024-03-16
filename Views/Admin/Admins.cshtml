@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<adminEntity>
 
 
-<div class="containerAdminMid mid">
-    <div class="row pt=4">
+<div class="containerAdminMid middle">
+    <div class="row pt=4 centerDiv backgroundColor text-black rounded bordered">
         <div class="col-9">
-            <h2 class="text-success textColor backgroundColor">
+            <h2 class="text-success centerText">
                 Admins overview
             </h2>
         </div>
@@ -17,16 +17,17 @@
 
     @if(Model != null && Model.Count() > 0)
         {
-            <table class="table table-bordered table-hover">
-                <thead>
+            <div class="flexTable">
+                <table class="table flexTable table-bordered table-hover">
+                    <thead>
                     <tr>
                         <th>Name</th>
                         <th>Lastname</th>
                         <th>Email</th>
                         <th> <a asp-controller="Admin" asp-action="Create" class="btn adminAdd btn-primary">add admin</a></th>
                     </tr>
-                </thead>
-                <tbody>
+                    </thead>
+                    <tbody>
                     @foreach (var item in Model)
                     {
                         <tr>
@@ -38,14 +39,16 @@
                                     <a asp-controller="Admin" asp-action="Edit" asp-route-id="@item.id_admin" class="btn btn-primary mx-1">
                                         Edit
                                     </a>
-                                  <a class="btn btn-primary delete" asp-action="Delete" asp-route-id="@item.id_admin" onclick="return confirm('Are you sure you want to delete this admin?')">Delete</a>
+                                    <a class="btn btn-primary delete" asp-action="Delete" asp-route-id="@item.id_admin" onclick="return confirm('Are you sure you want to delete this admin?')">Delete</a>
                                 </div>
                             </td>
                         </tr>
                         
                     }
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
+            
         }
         else
         {

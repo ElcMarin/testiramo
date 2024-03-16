@@ -207,7 +207,7 @@ body {
 .appointments-container {
   max-width: 800px;
   margin: 50px auto;
-  background-color: #fff;
+  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -383,4 +383,18 @@ body {
 
 .shadowed{
   box-shadow:5px 5px 15px #e0e0e0;
+}
+
+.flexTwo{
+  display:flex;
+  flex-direction: row;
+}
+
+.image450{
+  width:450px;
+}
+
+.flexTable{
+  width:100%;
+ 
 }

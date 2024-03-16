@@ -1,10 +1,12 @@
-﻿@model IEnumerable<userEntity>
+﻿
 
 
-<div class="containerAdminMid middle" >
-    <div class="row pt=4">
+@model IEnumerable<userEntity>
+
+<div class="containerAdminMid middle">
+    <div class="row pt=4 centerDiv backgroundColor text-black rounded bordered">
         <div class="col-9">
-            <h2 class="text-success backgroundColor">
+            <h2 class="text-success centerText">
                 Users overview
             </h2>
         </div>
@@ -15,15 +17,15 @@
 
     <br />
 
-    @if(Model != null && Model.Count() > 0)
+    @if(Model != null )
     {
-        <table class="table table-bordered table-hover">
+        <table class="table containerAd middle backgroundColor table-bordered table-hover">
             <thead>
             <tr>
                 <th>Name</th>
                 <th>Lastname</th>
                 <th>Email</th>
-                <th> <a asp-controller="Admin" asp-action="CreateUser" class="btn adminAdd btn-primary">Add user</a></th>
+                <th> <a asp-controller="Admin" asp-action="CreateUser" class="btn adminAdd btn-primary">add a hairdresser</a></th>
             </tr>
             </thead>
             <tbody>
@@ -38,7 +40,7 @@
                             <a asp-controller="Admin" asp-action="EditUser" asp-route-id="@item.id_user" class="btn btn-primary mx-1">
                                 Edit
                             </a>
-                            <a class="btn btn-primary delete" asp-action="DeleteUser" asp-route-id="@item.id_user" onclick="return confirm('Are you sure you want to delete this User?')">Delete</a>
+                            <a class="btn btn-primary delete" asp-action="Deleteuser" asp-route-id="@item.id_user" onclick="return confirm('Are you sure you want to delete this admin?')">Delete</a>
                         </div>
                     </td>
                 </tr>

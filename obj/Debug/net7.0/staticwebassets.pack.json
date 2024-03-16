@@ -105,12 +105,20 @@
       "PackagePath": "staticwebassets/Img/TexturedFringe.webp"
     },
     {
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/appointmentSuccessfull.jpeg",
+      "PackagePath": "staticwebassets/Img/appointmentSuccessfull.jpeg"
+    },
+    {
       "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/background3.jpeg",
       "PackagePath": "staticwebassets/Img/background3.jpeg"
     },
     {
       "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/backgroundTwo.webp",
       "PackagePath": "staticwebassets/Img/backgroundTwo.webp"
+    },
+    {
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/editingProfile.webp",
+      "PackagePath": "staticwebassets/Img/editingProfile.webp"
     },
     {
       "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/face-shape.webp",
@@ -157,12 +165,24 @@
       "PackagePath": "staticwebassets/Img/styles.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/1.png",
-      "PackagePath": "staticwebassets/Storage/ProfilePics/1.png"
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/1.jpeg",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/1.jpeg"
     },
     {
       "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/1_.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/1_.png"
+    },
+    {
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/1_h.png",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/1_h.png"
+    },
+    {
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/2_h.png",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/2_h.png"
+    },
+    {
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/2_u.png",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/2_u.png"
     },
     {
       "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/_1.png",
