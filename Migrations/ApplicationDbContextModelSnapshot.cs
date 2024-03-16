@@ -58,6 +58,9 @@ namespace maturitetna.Migrations
                     b.Property<DateTime>("appointmentTime")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<DateTime>("created")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<int>("id_haircut")
                         .HasColumnType("int");
 
@@ -66,6 +69,12 @@ namespace maturitetna.Migrations
 
                     b.Property<int>("id_user")
                         .HasColumnType("int");
+
+                    b.Property<bool>("rescheduleIn14Days")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<long>("reschedulingId")
+                        .HasColumnType("bigint");
 
                     b.HasKey("id_appointment");
 

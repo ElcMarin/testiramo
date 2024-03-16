@@ -9,179 +9,179 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = maturitetna
 build_property.RootNamespace = maturitetna
-build_property.ProjectDir = /Users/eliostante/Downloads/testiramo/
+build_property.ProjectDir = /Users/eliostante/Downloads/testiramo-2/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/eliostante/Downloads/testiramo
+build_property.MSBuildProjectDirectory = /Users/eliostante/Downloads/testiramo-2
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Create.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Delete.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Edit.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Index.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Hairdresser/Index.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Hairdresser/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFpcmRyZXNzZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/User/Logout.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/User/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/User/Profile.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Qcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/AddAppointments.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/AddAppointments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRkQXBwb2ludG1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Admins.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Admins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Appointments.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Appointments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQXBwb2ludG1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/CreateHairdresser.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/CreateHairdresser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlSGFpcmRyZXNzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/CreateUser.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/CreateUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/EditHairdresser.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/EditHairdresser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdEhhaXJkcmVzc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/EditUser.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Hairdressers.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Hairdressers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSGFpcmRyZXNzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Profile.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Styles.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Styles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3R5bGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Admin/Users.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Admin/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Hairdresser/DaysOff.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Hairdresser/DaysOff.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFpcmRyZXNzZXIvRGF5c09mZi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Hairdresser/Logout.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Hairdresser/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFpcmRyZXNzZXIvTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Hairdresser/MyHaircuts.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Hairdresser/MyHaircuts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFpcmRyZXNzZXIvTXlIYWlyY3V0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Hairdresser/Profile.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Hairdresser/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGFpcmRyZXNzZXIvUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Home/Index.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Home/Login.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Home/Privacy.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Home/Register.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Shared/Error.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/User/AvailableOnDay.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/User/AvailableOnDay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9BdmFpbGFibGVPbkRheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/User/Calendar.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/User/Calendar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DYWxlbmRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/User/Index.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/User/MakeAppointment.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/User/MakeAppointment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9NYWtlQXBwb2ludG1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/User/Style.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/User/Style.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9TdHlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/_ViewImports.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/_ViewStart.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eliostante/Downloads/testiramo/Views/Shared/_Layout.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-u0vgyn5yki
 
-[/Users/eliostante/Downloads/testiramo/Views/Shared/_LayoutAdmin.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-gfk17lo3ls
 
-[/Users/eliostante/Downloads/testiramo/Views/Shared/_LayoutHairdresser.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Shared/_LayoutHairdresser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRIYWlyZHJlc3Nlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-xk20glhv30
 
-[/Users/eliostante/Downloads/testiramo/Views/Shared/_LayoutUser.cshtml]
+[/Users/eliostante/Downloads/testiramo-2/Views/Shared/_LayoutUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-xpknfth68f

@@ -8,14 +8,28 @@
             <h2>Your Upcoming Appointments</h2>
             <div class="upcoming-appointments">
                 
-                @* @if (Model.appointmentEntity == null || Model.appointmentEntity.Count == 0) *@
-                @* { *@
-                @*     <hr class="half"/> *@
-                @*     <h3 class="textCenter">You Have No Appointments Yet</h3> *@
-                @*     <hr class="half"/> *@
-                @* } *@
-                
-                @foreach (appointmentEntity appointment in Model)
+            @if (Model == null)
+            {
+                <br/>
+                <h4>You have no upcoming appointments</h4>
+                <h5>Make your free reservation today!!</h5>
+            }
+            else
+            {
+                @foreach (appointmentEntity appointment in Model.my_recurring_appointments)
+                {
+                    <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
+
+                        <div class="appointment panel gray">
+                            Repeats every 14 days... 
+                            Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
+                            <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
+                        </div>
+
+                    </form>
+                }
+                <br />
+                @foreach (appointmentEntity appointment in Model.my_appointments)
                 {
                     <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
                       
@@ -26,6 +40,8 @@
                         
                     </form>
                 }
+            }
+
             </div>
         </div>
         <div class="spanTwo"> 

@@ -1,6 +1,6 @@
 ﻿@model Dictionary<hairdresserEntity, List<TimeSpan>>
 
-<a asp-action="Calendar" class="linkButton ROUNDED rightAbsoluteTop pointer">BACK</a>
+<a asp-action="Calendar" asp-route-id_haircut="@Context.Request.Query["id_haircut"]" class="linkButton ROUNDED rightAbsoluteTop pointer">BACK</a>
 <div class="containerCalendar">
     <h1 class="specialHeading">Available Times with Hairdressers</h1>
    
@@ -14,8 +14,8 @@
 
                     <form method="post" asp-action="MakeAppointment">
                     
-                        <input type="hidden" name="hairdresserId" value="@kvp.Key.id_hairdresser"/>
-                        <input type="hidden" name="haircutId" value="@Context.Request.Query["id_haircut"]"/>
+                        <input type="hidden" name="id_hairdresser" value="@kvp.Key.id_hairdresser"/>
+                        <input type="hidden" name="id_haircut" value="@Context.Request.Query["id_haircut"]" />
                         <input type="hidden" name="day" value="@Context.Request.Query["day"]"/>
                         <input type="hidden" name="month" value="@Context.Request.Query["month"]"/>
                         <input type="hidden" name="year" value="@Context.Request.Query["year"]"/>
@@ -30,8 +30,8 @@
                     
                         <button type="submit">Make Appointment</button>
                         <div style="margin-left:5px;" class="bordered">
-                            <label for="repeat">Reschedule in 14 days</label>
-                            <input id="repeat" type="checkbox"/>
+                            <label for="rescheduleIn2Weeks">Reschedule in 14 days</label>
+                        <input id="rescheduleIn2Weeks" name="rescheduleIn2Weeks" type="checkbox" value="true"  />
                         </div>
                         @{
                             string hairdresserPictureUrl = "/Storage/ProfilePics/" + kvp.Key.id_hairdresser + "_h.png";

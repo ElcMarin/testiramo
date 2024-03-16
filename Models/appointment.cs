@@ -24,13 +24,16 @@ namespace maturitetna.Models
 
         [Required]
         public DateTime appointmentTime { get; set; } 
+
+		public DateTime created { get; set; }
 		
 		public virtual userEntity user { get; set; }
 		public virtual hairdresserEntity hairdresser { get; set; }
 		public virtual haircutEntity haircut { get; set; }
 
-		// public string id_admin { get; set; }
-		// public int id_appointment_type { get; set; }
+
+		public long reschedulingId { get; set; } = 0;
+		public bool rescheduleIn14Days { get; set; } = false;
 	}
 }
 

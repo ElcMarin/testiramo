@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dHVGzPCmCkeS2Ob+kaG+QY4gRm66v7s5cTyXXHCXg5ZEiBt4lsiF6t9yQ3nkJxscSMoqCJaqC2rRLu7uau1kfA==",
+  "dgSpecHash": "N74spAJ+zEVj5tqoh8uSTneW46Djxaw7sPkvWv3kwaGVdHKzwYQvMAbpcGOmNPa53MGZlgoZQWeWUHT6d0ktcw==",
   "success": true,
-  "projectFilePath": "/Users/eliostante/Downloads/testiramo/maturitetna.csproj",
+  "projectFilePath": "/Users/eliostante/Downloads/testiramo-2/maturitetna.csproj",
   "expectedPackageFiles": [
     "/Users/eliostante/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/eliostante/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
@@ -23,6 +23,7 @@
     "/Users/eliostante/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/eliostante/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/eliostante/.nuget/packages/mysqlconnector/2.2.7/mysqlconnector.2.2.7.nupkg.sha512",
+    "/Users/eliostante/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/eliostante/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/Users/eliostante/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/eliostante/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",

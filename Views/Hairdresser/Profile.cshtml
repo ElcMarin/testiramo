@@ -5,8 +5,8 @@
 
         <div class="profile-picture">
             <!-- Placeholder for the profile picture -->
-            <img src="@ViewBag.File" alt="Profile Picture" id="profileImage">
-           
+            <img id="profileImage" src="@ViewBag.File" alt="Profile Picture">
+
             <input type="file" name="fileName" accept=".png, .jpg, .jpeg" onchange="changeProfileImage(this)" />
 
             <!-- Add startdate and enddate -->
@@ -40,6 +40,7 @@
 </form>
 
 <script>
+
     function changeProfileImage(input) {
         console.log("changeProfileImage");
         var reader = new FileReader();

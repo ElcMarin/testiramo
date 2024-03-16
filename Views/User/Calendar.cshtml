@@ -22,7 +22,6 @@
     </div>
     <script>
         document.addEventListener("calendarDayClicked", (e) => {
-			console.log(e.detail);
             window.location.href = '/User/AvailableOnDay?'+ 'id_haircut=' + @Model.id_haircut + '&day=' + e.detail.day + '&month=' + e.detail.month + '&year=' + e.detail.year;
 		});
         document.addEventListener("calendarMonthChanged", (e) => {

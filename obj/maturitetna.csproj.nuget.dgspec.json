@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eliostante/Downloads/testiramo/maturitetna.csproj": {}
+    "/Users/eliostante/Downloads/testiramo-2/maturitetna.csproj": {}
   },
   "projects": {
-    "/Users/eliostante/Downloads/testiramo/maturitetna.csproj": {
+    "/Users/eliostante/Downloads/testiramo-2/maturitetna.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eliostante/Downloads/testiramo/maturitetna.csproj",
+        "projectUniqueName": "/Users/eliostante/Downloads/testiramo-2/maturitetna.csproj",
         "projectName": "maturitetna",
-        "projectPath": "/Users/eliostante/Downloads/testiramo/maturitetna.csproj",
+        "projectPath": "/Users/eliostante/Downloads/testiramo-2/maturitetna.csproj",
         "packagesPath": "/Users/eliostante/.nuget/packages/",
-        "outputPath": "/Users/eliostante/Downloads/testiramo/obj/",
+        "outputPath": "/Users/eliostante/Downloads/testiramo-2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eliostante/.nuget/NuGet/NuGet.Config"
@@ -53,6 +53,10 @@
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.2.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

@@ -1,451 +1,439 @@
 {
   "Files": [
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/obj/Debug/net7.0/scopedcss/projectbundle/maturitetna.bundle.scp.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/obj/Debug/net7.0/scopedcss/projectbundle/maturitetna.bundle.scp.css",
       "PackagePath": "staticwebassets/maturitetna.bundle.scp.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Background.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Background.jpeg",
       "PackagePath": "staticwebassets/Img/Background.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/BroFlow.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/BroFlow.webp",
       "PackagePath": "staticwebassets/Img/BroFlow.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/BuzzCut.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/BuzzCut.webp",
       "PackagePath": "staticwebassets/Img/BuzzCut.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/CombOver.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/CombOver.webp",
       "PackagePath": "staticwebassets/Img/CombOver.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/CrewCut.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/CrewCut.jpeg",
       "PackagePath": "staticwebassets/Img/CrewCut.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Curtains.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Curtains.webp",
       "PackagePath": "staticwebassets/Img/Curtains.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Fade.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Fade.jpeg",
       "PackagePath": "staticwebassets/Img/Fade.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/FauxHawk.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/FauxHawk.webp",
       "PackagePath": "staticwebassets/Img/FauxHawk.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/FrenchCrop.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/FrenchCrop.jpeg",
       "PackagePath": "staticwebassets/Img/FrenchCrop.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Hairdresser2.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Hairdresser2.jpeg",
       "PackagePath": "staticwebassets/Img/Hairdresser2.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Hairdresser3.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Hairdresser3.webp",
       "PackagePath": "staticwebassets/Img/Hairdresser3.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Hairdresser4.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Hairdresser4.jpeg",
       "PackagePath": "staticwebassets/Img/Hairdresser4.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Hairdresser5.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Hairdresser5.jpeg",
       "PackagePath": "staticwebassets/Img/Hairdresser5.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Hairdresser6.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Hairdresser6.webp",
       "PackagePath": "staticwebassets/Img/Hairdresser6.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/HighAndTight.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/HighAndTight.webp",
       "PackagePath": "staticwebassets/Img/HighAndTight.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Matevz_Haircutter.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Matevz_Haircutter.webp",
       "PackagePath": "staticwebassets/Img/Matevz_Haircutter.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/MessyHair.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/MessyHair.webp",
       "PackagePath": "staticwebassets/Img/MessyHair.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Mohawk.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Mohawk.jpeg",
       "PackagePath": "staticwebassets/Img/Mohawk.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/ProstiDan.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/ProstiDan.webp",
       "PackagePath": "staticwebassets/Img/ProstiDan.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/Quiff.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/Quiff.webp",
       "PackagePath": "staticwebassets/Img/Quiff.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/SidePart.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/SidePart.webp",
       "PackagePath": "staticwebassets/Img/SidePart.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/SlickBack.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/SlickBack.webp",
       "PackagePath": "staticwebassets/Img/SlickBack.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/SpikyHair.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/SpikyHair.webp",
       "PackagePath": "staticwebassets/Img/SpikyHair.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/TexturedFringe.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/TexturedFringe.webp",
       "PackagePath": "staticwebassets/Img/TexturedFringe.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/appointmentSuccessfull.jpeg",
-      "PackagePath": "staticwebassets/Img/appointmentSuccessfull.jpeg"
-    },
-    {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/background3.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/background3.jpeg",
       "PackagePath": "staticwebassets/Img/background3.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/backgroundTwo.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/backgroundTwo.webp",
       "PackagePath": "staticwebassets/Img/backgroundTwo.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/face-shape.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/face-shape.webp",
       "PackagePath": "staticwebassets/Img/face-shape.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/hair-dye.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/hair-dye.png",
       "PackagePath": "staticwebassets/Img/hair-dye.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/homePage.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/homePage.png",
       "PackagePath": "staticwebassets/Img/homePage.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/left.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/left.png",
       "PackagePath": "staticwebassets/Img/left.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/lock.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/lock.png",
       "PackagePath": "staticwebassets/Img/lock.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/low-maintenance-haircuts-for-men.jpg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/low-maintenance-haircuts-for-men.jpg",
       "PackagePath": "staticwebassets/Img/low-maintenance-haircuts-for-men.jpg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/right.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/right.png",
       "PackagePath": "staticwebassets/Img/right.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/sidePic.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/sidePic.webp",
       "PackagePath": "staticwebassets/Img/sidePic.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/sidePicTwo.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/sidePicTwo.jpeg",
       "PackagePath": "staticwebassets/Img/sidePicTwo.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/sidePick2.avif",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/sidePick2.avif",
       "PackagePath": "staticwebassets/Img/sidePick2.avif"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Img/styles.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Img/styles.webp",
       "PackagePath": "staticwebassets/Img/styles.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1.jpeg",
-      "PackagePath": "staticwebassets/Storage/ProfilePics/1.jpeg"
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/1.png",
+      "PackagePath": "staticwebassets/Storage/ProfilePics/1.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1_.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/1_.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/1_.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/1_h.png",
-      "PackagePath": "staticwebassets/Storage/ProfilePics/1_h.png"
-    },
-    {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/2_h.png",
-      "PackagePath": "staticwebassets/Storage/ProfilePics/2_h.png"
-    },
-    {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/2_u.png",
-      "PackagePath": "staticwebassets/Storage/ProfilePics/2_u.png"
-    },
-    {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/_1.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/_1.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/_1.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/default.png",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/default.png",
       "PackagePath": "staticwebassets/Storage/ProfilePics/default.png"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/haircutTypes.webp",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/haircutTypes.webp",
       "PackagePath": "staticwebassets/Storage/ProfilePics/haircutTypes.webp"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/profileSecond.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/profileSecond.jpeg",
       "PackagePath": "staticwebassets/Storage/ProfilePics/profileSecond.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/Storage/ProfilePics/profilethree.jpeg",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/Storage/ProfilePics/profilethree.jpeg",
       "PackagePath": "staticwebassets/Storage/ProfilePics/profilethree.jpeg"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/css/Admin.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/css/Admin.css",
       "PackagePath": "staticwebassets/css/Admin.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/css/Hairdresser.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/css/Hairdresser.css",
       "PackagePath": "staticwebassets/css/Hairdresser.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/css/User.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/css/User.css",
       "PackagePath": "staticwebassets/css/User.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/css/site.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/favicon.ico",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/js/site.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/eliostante/Downloads/testiramo/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/eliostante/Downloads/testiramo-2/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
