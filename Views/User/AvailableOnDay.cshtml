@@ -4,10 +4,10 @@
 <div class="containerCalendar">
     <h1 class="specialHeading">Available Times with Hairdressers</h1>
     <label style="font-size:20px !important; color:  white;">Filter Hairdressers</label>
-    <select>
-        <option>EVERYONE</option>
-        <option>MALE</option>
-        <option>FEMALE</option>
+    <select id="genderFilter">
+        <option value="all">EVERYONE</option>
+        <option value="Male">MALE</option>
+        <option value="Female">FEMALE</option>
     </select>
     <br/>
    
@@ -16,7 +16,7 @@
             @foreach (var kvp in Model)
             {
             
-                <div class="book round shadowed">
+                <div class="book round shadowed" data-gender="@kvp.Key.gender">
                     <h2>@kvp.Key.name.ToUpper() @kvp.Key.lastname.ToUpper()</h2>
 
                     <form method="post" asp-action="MakeAppointment">
@@ -55,3 +55,22 @@
     
     
 </div>
+
+<script>
+    document.getElementById('genderFilter').addEventListener('change', function() {
+        let selectedGender = this.value;
+        let hairdressers = document.querySelectorAll('.book');
+
+        hairdressers.forEach(function(hairdresser) {
+            let gender = hairdresser.getAttribute('data-gender');
+
+            if (selectedGender === 'all' || gender === selectedGender) {
+                hairdresser.style.display = 'block';
+            } else {
+                hairdresser.style.display = 'none';
+            }
+            console.log(gender);
+            console.log(selectedGender);
+        });
+    });
+</script>

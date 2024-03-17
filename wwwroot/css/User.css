@@ -487,6 +487,10 @@ body {
   grid-gap: 20px; 
 }
 
-additional-info{
+.additional-info{
   grid-row:span 2;
+}
+
+.shadowed{
+  box-shadow: 5px 5px 10px grey;
 }

@@ -15,7 +15,7 @@ namespace maturitetna.Models
 
         public adminEntity()
         {
-            created = DateTime.UtcNow;
+            // created = DateTime.UtcNow;
         }
     }
 }

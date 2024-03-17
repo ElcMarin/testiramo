@@ -16,28 +16,30 @@
             }
             else
             {
+                
                 @foreach (appointmentEntity appointment in Model.my_recurring_appointments)
                 {
                     <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
-
+                
                         <div class="appointment panel gray">
-                            Repeats every 14 days... 
+                            Repeats every 14 days...
+                           
                             Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
                             <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
                         </div>
-
+                
                     </form>
                 }
                 <br />
                 @foreach (appointmentEntity appointment in Model.my_appointments)
                 {
                     <form method="post" asp-action="CancelAppointment" asp-route-appointment_id="@appointment.id_appointment">
-                      
+                
                         <div class="appointment panel gray">
                             Date: @(appointment.appointmentTime.ToString("D") + ", Time: " + appointment.appointmentTime.ToString("t") + " - " + appointment.appointmentTime.AddMinutes(appointment.haircut.duration).ToString("t"))
                             <button type="submit" class="set-appointment-btn rightAbsolute rounded">Cancel Appointment</button>
                         </div>
-                        
+                
                     </form>
                 }
             }

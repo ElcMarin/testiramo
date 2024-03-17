@@ -22,8 +22,8 @@ namespace maturitetna.Models
 
         public DateTime created { get; set; }
 
+        // public Gender? gender { get; set; }
         public Gender? gender { get; set; }
-        
         public bool is_working { get; set; }
         public TimeSpan startTime { get; set; }
         public TimeSpan endTime { get; set; }
