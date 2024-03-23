@@ -6,8 +6,8 @@ namespace maturitetna.Services
 {
     public class MailService
     {
-        const string apiUrl = "https://api.mailgun.net/v3/sandbox4ad7f4449d8a4e5aab1e251e24774f80.mailgun.org/messages";
-        const string API_KEY = "0f1142f77d90de1074abb709027deaa4-b7b36bc2-146842ab";
+        const string apiUrl = "https://api.mailgun.net/v3/sandbox55e42ae4cba347f48f1202038f15d0d7.mailgun.org/messages";
+        const string API_KEY = "2303818152cc3868e22f98be90ca3408-309b0ef4-b47cb0b5";
         // const string SANDOX_DOMAIN = "sandbox4ad7f4449d8a4e5aab1e251e24774f80.mailgun.org";
         static string authHeader = Convert.ToBase64String(Encoding.UTF8.GetBytes($"api:{API_KEY}"));
 

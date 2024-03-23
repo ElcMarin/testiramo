@@ -117,6 +117,20 @@ public class AdminController : Controller
         return RedirectToAction(nameof(Index));
     }
     
+    public async Task<IActionResult> DeleteAppointment(int id)
+    {
+        var appointment = await _db.appointment.FindAsync(id);
+        if (appointment == null)
+        {
+            return NotFound();
+        }
+
+        _db.appointment.Remove(appointment);
+        await _db.SaveChangesAsync();
+
+        return RedirectToAction(nameof(Index));
+    }
+    
     public async Task<IActionResult> DeleteUser(int id)
     {
         var user = await _db.user.FindAsync(id);
@@ -341,54 +355,7 @@ public async Task<IActionResult> Create(adminEntity admin)
 
     // APPOINTMENS
 
-    public IActionResult Appointments(int? hairdresser_id = null, int? dayOfTheWeek = null)
-    {
-        var availableHairdressers = _db.hairdresser.ToList();
-
-        if (availableHairdressers.Count == 0)
-        {
-            return View();
-        }
-
-        if (hairdresser_id == null)
-        {
-            hairdresser_id = availableHairdressers.First().id_hairdresser;
-        }
-        if(dayOfTheWeek == null)
-        {
-            dayOfTheWeek = 1;
-        }
-
-        var hairdresser = _db.hairdresser.Find(hairdresser_id);
-
-        var startOfTheWeek = DateTime.Today.AddDays((int)DateTime.Today.DayOfWeek * -1);
-
-        var selectedDay = startOfTheWeek.AddDays((double)dayOfTheWeek);
-
-        var appointments = _db.appointment.Where(a => a.id_hairdresser == hairdresser_id && a.appointmentTime.Date == selectedDay).Include(a => a.user).Include(a => a.haircut);
-
-
-        return View(new {
-            availableHairdressers = availableHairdressers,
-            appointments = appointments,
-            selectedDay = dayOfTheWeek,
-            selectedHairdresser = hairdresser_id,
-        });
-    }
-
-    [HttpPost]
-    public IActionResult CancelAppointment(int appointment_id)
-    {
-        var appointment = _db.appointment.Find(appointment_id);
-        if (appointment == null)
-        {
-            return RedirectToAction("Index");
-        }
-        _db.appointment.Remove(appointment);
-        _db.SaveChanges();
-        return RedirectToAction("Index");
-    }
-
+   
     public IActionResult AddAppointments()
     {
         return View();

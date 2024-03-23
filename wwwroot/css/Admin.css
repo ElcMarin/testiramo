@@ -398,3 +398,8 @@ body {
   width:100%;
  
 }
+
+.scrollable {
+  max-height: 500px !important;
+  overflow-y: scroll;
+}
