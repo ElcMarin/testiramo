@@ -97,7 +97,7 @@ public class HairdresserController : Controller
             // }
         }
         ViewBag.File = FileHelper.GetProfilePicture( hairdresser.id_hairdresser, 'h');
-        return View( hairdresser);
+        return View(user);
     }
 
     public async Task<IActionResult> ToggleMyHaircut(int id_haircut)

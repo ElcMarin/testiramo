@@ -51,7 +51,7 @@ public class UserController : Controller
 
         var my_recurring_appointments = my_recurring_appointments_query
             .AsEnumerable()
-            .DistinctBy(a => a.reschedulingId);
+            .DistinctBy(a => a.reschedulingId).ToList();
 
         if (my_appointments.Count() == 0 && my_recurring_appointments.Count() == 0) return View(null);
         return View(new { my_appointments, my_recurring_appointments });
@@ -111,7 +111,7 @@ public class UserController : Controller
             // }
         }
         ViewBag.File = FileHelper.GetProfilePicture(user.id_user, 'u');
-        return View(user);
+        return View(variable);
     }
 
 

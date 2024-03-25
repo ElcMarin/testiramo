@@ -21,7 +21,7 @@ public class AdminController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var appointment = await _db.appointment.ToListAsync();
+        var appointment = await _db.appointment.Include(a => a.hairdresser).Include(a => a.haircut).Include(a => a.user).ToListAsync();
         return View(appointment);
     }
     public async Task<IActionResult> Hairdressers()
@@ -37,19 +37,21 @@ public class AdminController : Controller
     [HttpPost]
     public async Task<IActionResult> CreateHairdresser(hairdresserEntity hairdresser)
     {
+        ModelState.Remove("appointements");
+        ModelState.Remove("haircuts");
         if (ModelState.IsValid)
         {
-            // Hash the password
+          
             hairdresser.password = PasswordHelper.HashPassword(hairdresser.password);
 
-            // Add the admin with hashed password to the database
+           
             _db.hairdresser.Add(hairdresser);
             await _db.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Hairdressers));
         }
 
-        // If ModelState is not valid, return to the Create view with validation errors
+        
         return View(hairdresser);
     }
     
@@ -67,28 +69,25 @@ public class AdminController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> EditHairdresser(int id, [Bind("id_hairdresser,name,lastname,email,is_working,startTime,endTime")] hairdresserEntity hairdresser)
+    public async Task<IActionResult> EditHairdresser(int id, hairdresserEntity hairdresser)
     {
         if (id != hairdresser.id_hairdresser)
         {
             return NotFound();
         }
+        var found_hairdresser = _db.hairdresser.Find(id);
 
-        if (ModelState.IsValid)
-        {
-            try
-            {
-                _db.Update(hairdresser);
-                await _db.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                // Handle exception
-            }
+        found_hairdresser.name = hairdresser.name;
+        found_hairdresser.lastname = hairdresser.lastname;
+        found_hairdresser.email = hairdresser.email;
 
-            return RedirectToAction(nameof(Hairdressers)); // Redirect to admin list or another page
-        }
-        return View(hairdresser);
+        found_hairdresser.gender = hairdresser.gender;
+        found_hairdresser.is_working = hairdresser.is_working;
+        found_hairdresser.startTime = hairdresser.startTime;
+        found_hairdresser.endTime = hairdresser.endTime;
+
+        _db.SaveChanges();
+        return View(found_hairdresser);
     }
     
     
@@ -178,23 +177,14 @@ public class AdminController : Controller
             return NotFound();
         }
 
-        if (ModelState.IsValid)
-        {
-            try
-            {
-                _db.Update(user);
-                await _db.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                // Handle exception
-            }
+        var found_user = _db.user.Find(id);
 
-            return RedirectToAction(nameof(Index)); // Redirect to admin list or another page
-        }
+        found_user.name = user.name;
+        found_user.email = user.email;
+        found_user.lastname = user.lastname;
 
-        return View(user);
-
+        _db.SaveChanges();
+        return RedirectToAction(nameof(Users)); // Redirect to admin list or another page
     }
     
     public IActionResult CreateUser()
@@ -287,7 +277,7 @@ public class AdminController : Controller
             // }
         }
         ViewBag.File = FileHelper.GetProfilePicture(admin.id_admin, 'a');
-        return View(admin);
+        return View(user);
     }
 
     
@@ -336,21 +326,15 @@ public async Task<IActionResult> Create(adminEntity admin)
             return NotFound();
         }
 
-        if (ModelState.IsValid)
-        {
-            try
-            {
-                _db.Update(admin);
-                await _db.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                // Handle exception
-            }
 
-            return RedirectToAction(nameof(Index)); // Redirect to admin list or another page
-        }
-        return View(admin);
+        var found_admin = _db.admin.Find(id);
+
+        found_admin.name = admin.name;
+        found_admin.lastname = admin.lastname;
+        found_admin.email = admin.email;
+
+        _db.SaveChanges();
+        return RedirectToAction(nameof(Admins));
     }
 
     // APPOINTMENS
@@ -372,20 +356,43 @@ public async Task<IActionResult> Create(adminEntity admin)
         return View();
     }
 
-    public IActionResult Styles()
+    public IActionResult Styles(int hairdresser_id)
     {
-        return View();
+        var hairdresser = _db.hairdresser.Find(hairdresser_id);
+        if(hairdresser == null) { return NotFound(); }
+
+        var allHaircuts = _db.haircut.ToList();
+
+        var myHaircuts = _db.hairdresserHaircut.Where(hh => hh.id_hairdresser == hairdresser_id).ToList();
+
+        return View(new
+        {
+            hairdresser,
+            myHaircuts,
+            allHaircuts
+        });
     }
     
-    [HttpPost]
-    public async Task<IActionResult> Styles(haircutEntity haircut)
+
+    public async Task<IActionResult> ToggleHaircut(int hairdresser_id, int haircut_id)
     {
-       if(ModelState.IsValid)
-       {
-           _db.haircut.Add(haircut);
-           await _db.SaveChangesAsync();
-       }
-       return View();
+        if (await _db.hairdresserHaircut.FirstOrDefaultAsync(hh => hh.id_haircut == haircut_id && hh.id_hairdresser == hairdresser_id) == null)
+        {
+            var hh = new hairdresserHaircutEntity
+            {
+                id_haircut = haircut_id,
+                id_hairdresser = hairdresser_id,
+            };
+            await _db.hairdresserHaircut.AddAsync(hh);
+            await _db.SaveChangesAsync();
+        }
+        else
+        {
+            var hh = await _db.hairdresserHaircut.FirstOrDefaultAsync(hh => hh.id_haircut == haircut_id && hh.id_hairdresser == hairdresser_id);
+            _db.hairdresserHaircut.Remove(hh);
+            await _db.SaveChangesAsync();
+        }
+        return RedirectToAction("Styles", new { hairdresser_id = hairdresser_id });
     }
 }
 

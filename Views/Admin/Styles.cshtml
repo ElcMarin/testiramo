@@ -1,18 +1,76 @@
-﻿@model IEnumerable<haircutEntity>
-<div class="posCenter">
+﻿<div class="posCenter">
     <div class="selectStyles rouded backgroundColor">
         <h2>Styles Hairdresser knows</h2>
         <br/>
-    <form asp-action="Styles" method="post">
-            <select name="selectedStyle">
-                @foreach (var style in Model)
+    
+        @if (Model.myHaircuts == null || Model.myHaircuts.Count == 0)
+        {
+            <hr class="half" />
+            <h3 class="textCenter">no haircuts yet</h3>
+            <hr class="half" />
+        }
+        else
+        {
+            <div class="gridHaircuts">
+                @foreach (var hairdresserHaircut in Model.myHaircuts)
                 {
-                    <option value="@style.id_haircut">@style.style</option>
+                    <div class="grid-item spaceIn round">
+                        <img style="display:block;" class="fullWidth" height="280" alt="@hairdresserHaircut.haircut.image" src="@hairdresserHaircut.haircut.image" />
+                        <span style="display:block;">
+                            @hairdresserHaircut.haircut.style
+                        </span>
+                        <br />
+                        <a asp-action="ToggleHaircut" asp-route-hairdresser_id="@Model.hairdresser.id_hairdresser" asp-route-haircut_id="@hairdresserHaircut.haircut.id_haircut">
+                            Remove this style
+                        </a>
+                    </div>
                 }
-            </select>
-            <br />
-            <button type="submit">Submit</button>
-        </form>
+            </div>
+        }
      
+        <div class="gridHaircuts">
+
+            @foreach (haircutEntity haircut in Model.allHaircuts)
+            {
+                bool isHaircutInMyHaircuts = false;
+                foreach (var mh in Model.myHaircuts)
+                {
+                    if (mh.haircut.id_haircut == haircut.id_haircut)
+                    {
+                        isHaircutInMyHaircuts = true;
+                        break;
+                    }
+                }
+
+                if (isHaircutInMyHaircuts == false)
+                {
+
+                    <div class="grid-item spaceIn round">
+                        <img style="display:block;" class="fullWidth" height="280" alt="@haircut.image" src="@haircut.image" />
+                        <span style="display:block;">
+                            @haircut.style
+                        </span>
+                        <br />
+                        <a asp-action="ToggleHaircut" asp-route-hairdresser_id="@Model.hairdresser.id_hairdresser" asp-route-haircut_id="@haircut.id_haircut">
+                            Toggle this style
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    @*<div class="grid-item spaceIn round">
+            <img style="display:block;" class="fullWidth" height="280" alt="@haircut.image" src="@haircut.image"/>
+            <span style="display:block;">
+            @haircut.style
+            </span>
+            <br/>
+            <a asp-action="ToggleMyHaircut" asp-route-id_haircut="@haircut.id_haircut">
+            Owned - remove
+            </a>
+            </div>*@
+                }
+            }
+
+        </div>
     </div>
 </div>

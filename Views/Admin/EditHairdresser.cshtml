@@ -36,8 +36,13 @@
                 <br/>
                 <div class="row">
                     <div class="col-4">
+                        
                                         <label asp-for="gender"></label>
-                                        <input required asp-for="gender" class="form-control zweiHundert"/>
+                                        <select asp-for="gender">
+                           
+                            <option value="0">Male</option>
+                            <option value="1">Female</option>
+                        </select>
                                         <span asp-validation-for="gender"></span>
                                     </div>
                                 </div>
@@ -49,11 +54,11 @@
                 </div>
                 <div class="row">
                     <label asp-for="startTime"></label>
-                                       <input required="" asp-for="startTime" class="form-control zweiHundert"/>
+                    <input required="" asp-for="startTime" type="time" class="form-control zweiHundert" />
                                        <span asp-validation-for="startTime"></span>
                     <br/>
                     <label asp-for="endTime"></label>
-                                       <input asp-for="endTime" type="time" class="form-control" value="endTime" />
+                                       <input asp-for="endTime" type="time" class="form-control" />
                                        <span asp-validation-for="endTime"></span>
                   
                 </div>
@@ -69,7 +74,7 @@
 
             <div class="rightSide posCenter">
                 <img class="image600" src="~/Img/styles.webp" alt="styles">
-                <a asp-action="Styles" class="btn btn-primary">Edit styles</a>
+                <a asp-action="Styles" asp-route-hairdresser_id="@Model.id_hairdresser" class="btn btn-primary">Edit styles</a>
             </div>
         </div>
         

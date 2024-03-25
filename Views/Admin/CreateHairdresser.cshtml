@@ -38,6 +38,16 @@
                 <span asp-validation-for="password"></span>
             </div>
         </div>
+        <div class="row">
+                    <div class="col-4">
+                        <label asp-for="gender"></label>
+                        <select required="" asp-for="gender" class="form-control">
+                                   <option value="m">male</option>
+                                   <option value="f">female</option>
+                               </select>
+                        <span asp-validation-for="password"></span>
+                    </div>
+                </div>
         <br/>
             <div class="w-12 btn-group" role="group">
                 <input type="submit" class="btn btn-primary mx-1">

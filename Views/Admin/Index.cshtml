@@ -33,10 +33,10 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.hairdresser</td>
+                        <td>@item.hairdresser.name @item.hairdresser.lastname</td>
                     <td>@item.appointmentTime</td>
-                    <td>@item.haircut</td>
-                    <td>@item.user</td>
+                    <td>@item.haircut.style</td>
+                        <td>@item.user.name @item.user.lastname</td>
                     
                     <td>
                         <div role="group" class="btn-group w-100">

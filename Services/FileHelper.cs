@@ -7,7 +7,7 @@ public class FileHelper
         //kak nardim poizvedbo tule notr da vidim v kateri tabeli je pac po pravicah
         if (System.IO.File.Exists("wwwroot/Storage/ProfilePics/" + id + "_" + rights + ".png"))
         {
-            return "/Storage/ProfilePics/" + id + "_" + rights + ".png";
+            return "/Storage/ProfilePics/" + id + "_" + rights + ".png?" + DateTime.UtcNow.Ticks;
         }
         else
         {
@@ -19,7 +19,7 @@ public class FileHelper
     {
         if (System.IO.File.Exists("/Storage/HaircutPics/" + id + ".png"))
         {
-            return "/Storage/HaircutPics/"  + id + ".png";
+            return "/Storage/HaircutPics/"  + id + ".png?" + DateTime.UtcNow.Ticks;
         }
         else
         {
@@ -31,7 +31,7 @@ public class FileHelper
     {
         if (System.IO.File.Exists("/Storage/HairdresserPics/" + id + ".png"))
         {
-            return "/Storage/HairdresserPics/"  + id + ".png";
+            return "/Storage/HairdresserPics/"  + id + ".png?" + DateTime.UtcNow.Ticks;
         }
         else
         {

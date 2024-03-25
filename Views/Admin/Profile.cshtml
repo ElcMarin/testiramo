@@ -5,9 +5,9 @@
     <div class="profile-container">
         <div class="profile-picture">
             <!-- Placeholder for the profile picture -->
-            <img src="@ViewBag.File" alt="Profile Picture">
+            <img src="@ViewBag.File" alt="Profile Picture" id="profileImage">
             
-            <input type="file" name="fileName"/>
+            <input type="file" name="fileName" accept=".png, .jpg, .jpeg" onchange="changeProfileImage(this)" />
       
             <!-- prestavi v post ko bos naredil edit   <input type="file" name="fileName"/> -->
         </div>
@@ -33,3 +33,19 @@
         </div>
     </div>
 </form>
+
+
+<script>
+    function changeProfileImage(input) {
+        console.log("changeProfileImage");
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            // Update the src attribute of the image with the new data URL
+            document.getElementById('profileImage').src = e.target.result;
+        };
+
+        // Read the selected file as a data URL
+        reader.readAsDataURL(input.files[0]);
+    }
+</script>
